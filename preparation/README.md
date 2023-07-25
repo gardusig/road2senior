@@ -4,8 +4,8 @@ The interview process generally consists of a few interviews, the goal is to cov
 
 1. [Coding interview](#coding-interview)
 1. [Behavioral interview](#behavioral-interview)
+1. [System design interview](#system-design-interview)
 1. [Ask at the end](#ask-at-the-end)
-
 
 ## Coding interview
 
@@ -26,6 +26,26 @@ This interview generally takes up to an hour, and you are generally expected to 
 Few guides:
 - Don't be very technical
 - Add STAR method explanation link
+
+## System design interview
+
+This interview generally takes up to an hour, and you are generally expected to draw a few things that can be read as a computer system. It does not have to be perfect, otherwise you could replace a bunch of people :)
+
+Few guides:
+- Understand the project idea and look at it as a user
+- Ask clarifying questions with more details and remove ambiguity
+- Define which data should be stored
+- Think about how you would organize their storage
+- Understand data flow and define APIs to access them
+- Draw a few boxes with a general flow from the UI request to the response
+- Estimate resource usage and investigate where is the bottleneck
+- Discussions may touch:
+  - Security
+  - Deployment
+  - Automation
+  - Maintenance
+  - Metrics collection
+    - Alarms
 
 ## Ask at the end
 
