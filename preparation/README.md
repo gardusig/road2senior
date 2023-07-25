@@ -29,7 +29,7 @@ Few guides:
 
 ## System design interview
 
-This interview generally takes up to an hour, and you are generally expected to draw a few things that can be read as a computer system. It does not have to be perfect, otherwise you could replace a bunch of people :)
+This interview generally takes up to an hour, and you are generally expected to draw a few things that can be read as a computer system. It does not have to be perfect, otherwise you would be eligible to  replace a bunch of people :)
 
 Few guides:
 - Understand the project idea and look at it as a user
