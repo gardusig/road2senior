@@ -1,8 +1,8 @@
 # road2senior
 Software Engineer job interview thoughts 
 
-1. [Interview solutions](#interview-solutions)
-1. [Interview preparation](#interview-preparation)
+1. [Solutions](#solutions)
+1. [Preparation](#Preparation)
 
 
 ## Solutions
