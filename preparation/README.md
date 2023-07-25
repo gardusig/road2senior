@@ -1,6 +1,6 @@
 # Summary
 
-The interview process generally consists of a few interviews, the goal is to cover each type by documenting a few tricks to prepare and go well at them.
+The interview process generally consists of a few interviews, the goal is to cover each type by documenting a few tricks to prepare and get an offer.
 
 1. [Coding-interview](#coding-interview)
 1. [Behavioral-interview](#behavioral-interview)
@@ -11,13 +11,12 @@ The interview process generally consists of a few interviews, the goal is to cov
 This interview generally takes up to an hour, and you are generally expected to solve a few problem(s) using algorithms and data structures.
 
 Few guides:
-- Iterate through some examples to check if you understood the problem and try to fin corner cases
+- Iterate through some examples to check if you understood the problem and try to find corner cases ASAP
 - Ask clarifying questions
-- Be honest if already saw question before
+- Be honest if you already saw the question before
 - Think about distinct solutions and their trade-offs, using time and space complexity to compare them
 - Write good quality code, easily readable and efficient, not something that just works
-- Test the code by running it against small input/output scenarios and explain each variable value
-
+- Test the code by running it against small input/output scenarios and explain what happens at each step. Actually creating each variable and explaining their value changes over execution is just fine.
 
 ## Behavioral interview
 
