@@ -5,8 +5,11 @@ Software Engineer job interview thoughts
 1. [Interview preparation](#interview-preparation)
 
 
-## Interview solutions
-TODO
+## Solutions
+Solutions for coding problems. Contains problems from real interviews and training platforms.
 
-## Interview preparation
+## Preparation
+Consists of general guidance to prepare and excel at your real interviews
+
+## System Design
 TODO
