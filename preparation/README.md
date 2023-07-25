@@ -2,9 +2,9 @@
 
 The interview process generally consists of a few interviews, the goal is to cover each type by documenting a few tricks to prepare and get an offer.
 
-1. [Coding-interview](#coding-interview)
-1. [Behavioral-interview](#behavioral-interview)
-1. [
+1. [Coding interview](#coding-interview)
+1. [Behavioral interview](#behavioral-interview)
+1. [Ask at the end](#ask-at-the-end)
 
 
 ## Coding interview
