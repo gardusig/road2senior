@@ -1,0 +1,29 @@
+plugins {
+    id 'application'
+}
+
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation(platform('org.junit:junit-bom:5.8.2'))
+    testImplementation('org.junit.jupiter:junit-jupiter')
+}
+
+ext {
+    javaMainClass = "com.solution.Main"
+}
+
+application {
+    mainClassName = javaMainClass
+}
+
+test {
+    useJUnitPlatform()
+    testLogging {
+        events "passed", "skipped", "failed"
+    }
+}
