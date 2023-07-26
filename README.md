@@ -1,5 +1,4 @@
 # road2senior
-Software Engineer job interview thoughts 
 
 1. [Solutions](#solutions)
 1. [Preparation](#Preparation)
