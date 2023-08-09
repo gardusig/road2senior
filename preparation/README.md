@@ -3,25 +3,45 @@
 - [Behavioral interview](#behavioral-interview)
 - [System design interview](#system-design-interview)
 - [Ask at the end](#ask-at-the-end)
+- [After the interview](#after-the-interview)
 
 # Summary
 
 The interview process generally consists of a few interviews, the goal is to cover each type by documenting a few tricks to prepare and get an offer.
 
+- Be positive and enthusiastic.
+  - The interviewer wants to hire someone who is excited about software development
+    - Show them that you are passionate about coding!
+- Make good impression on the interviewer
+  - Make eye contact and smile
+  - Sit up straight and speak clearly
+  - Be enthusiastic about the opportunity
+- Dress appropriately
+- Be on time for the interview
+- Take the interview seriously.
+- Be... yourself :)
+  - The interviewer wants to get to know the real you, so don't try to be someone you're not
+- Practice, practice, practice!
+  - more you practice, more comfortable you will be
+    - resources available online and in libraries to help you practice
+- Be prepared for anything.
+  - The interviewer might ask you a question that you have never seen before
+    - Be prepared to think on your feet and to come up with a solution
+- Don't be afraid to ask for help
+  - got stuck?
+    - don't be afraid to ask the interviewer for help
+      - The interviewer is there to help you succeed
+
 ## Coding interview
 
 This interview generally takes up to an hour, and you are generally expected to solve a few problem(s) using algorithms and data structures.
 
-Few guides:
+I think the best result comes from the ease of understanding an interviewer has on why a code exists and how it works. It should look like a reasonable solution and easy to read. You can achieve it by communicating your thought process to the interviewer.
 
-- Iterate through some examples
-  - Good way to check if you understood the problem
-  - Be honest if you already saw the question before
-  - Start thinking about potential solutions
-  - Try to find corner cases and edge cases that might not be obvious at first
-    - Don't underestimate the problem
 - Ask clarifying questions
   - Essential for making sure that you understand the problem and the expected output
+  - Good way to check if you understood the problem
+  - Be honest if you already saw the question before
   - Don't be afraid to ask "dumb" questions
     - The dumbest the better, you must be sure of each relevant data
     - The interviewer would rather you ask a question than get the wrong answer
@@ -47,8 +67,24 @@ Few guides:
           - Problem might explain many rules of tennis
             - The winner always makes the last turn point, so... If you ignore the others?
               - Just return the last one :)
+- Iterate through some examples...
+  - Start thinking about potential solutions
+    - Be creative
+      - There is often more than one way to solve a coding problem
+        - Don't be afraid to think outside the box
+  - Find corner cases and edge cases that might not be obvious at first
+    - Don't underestimate the problem
+  - Small examples for easy and quick test
+  - Large examples for scalability test
+  - Edge cases that test the robustness of your solution
 - By this point you should have understood the question and all of its details
-  - Think about distinct solutions and their trade-offs
+  - Trade offs to be considered when choosing a solution
+    - Time complexity
+    - Space complexity
+    - Ease of implementation
+    - Correctness
+    - Code readability
+  - Think about distinct solutions
     - Start by the simplest naive iterative solution and its expected complexity
     - Now its time to understand repeated operations
       - Algorithms and Data structures are useful here
@@ -74,15 +110,21 @@ Few guides:
               - like returning the greatest value
 - Write good quality code
   - readable, efficient, and well-tested
+  - use comments to explain your code
+    - help the interviewer to understand your code and debug it
+  - or invest into pretty well written variable and method names
+    - it's faster to write an almost good comment than finding the best name btw
   - easy to understand for both you and the interviewer
+  - use proper indentation and spacing
+    - makes your code easier to read and understand
 - Test the code
   - Test your code against a variety of input/output scenarios
     - Passing by all corner cases and edge cases is probably enough
   - If confused, running it against small input/output scenarios may help
     - Explain what happens over each execution step
       - Actually creating the variables and explaining how their value changes is just fine :)
-    - The interviewer is there to help you
 - Breathe and get back to the problem
+  - There is no need for hurry, you've got this
 
 ## Behavioral interview
 
@@ -186,6 +228,13 @@ By the end of each interview, you are expected to have around 5 minutes to ask a
 
 Few guides:
 
+- Follow-up questions
+  - This shows that you're engaged in the conversation and that you're genuinely interested in learning more about the company and the role
+- What are the biggest challenges that the team is facing right now?
+- What are the opportunities for growth and development in this role?
+- What is the company culture like?
+- Why is this position open?
+- What are the next steps in the hiring process?
 - On-call
   - What is the rotation period? (i.e. Every two weeks)
   - How much time is expected to spend away from standard tasks?
@@ -197,3 +246,7 @@ Few guides:
   - Are there enough projects to support next level experience?
   - What are expectations? And what should be improved to get promoted?
   - How the promotion process looks like?
+
+## After the interview
+
+- Send a thank-you note to the interviewer
