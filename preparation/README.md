@@ -126,6 +126,10 @@ I think the best result comes from the ease of understanding an interviewer has 
 - Breathe and get back to the problem
   - There is no need for hurry, you've got this
 
+### Practice
+
+I recommend using LeetCode, but smartly: https://neetcode.io/practice. It contains a list of useful problems aiming for the highest interview topic coverage.
+
 ## Behavioral interview
 
 This interview generally takes up to an hour, and you are generally expected to cover a few of your past experiences. The key point is not to feel ashamed of mistakes, they are quite useful when you have learned a lesson. As you make more distinct mistakes, the better you tend to become.
