@@ -14,12 +14,75 @@ This interview generally takes up to an hour, and you are generally expected to 
 
 Few guides:
 
-- Iterate through some examples to check if you understood the problem and try to find corner cases ASAP
+- Iterate through some examples
+  - Good way to check if you understood the problem
+  - Be honest if you already saw the question before
+  - Start thinking about potential solutions
+  - Try to find corner cases and edge cases that might not be obvious at first
+    - Don't underestimate the problem
 - Ask clarifying questions
-- Be honest if you already saw the question before
-- Think about distinct solutions and their trade-offs, using time and space complexity to compare them
-- Write good quality code, easily readable and efficient, not something that just works
-- Test the code by running it against small input/output scenarios and explain what happens at each step. Actually creating each variable and explaining their value changes over execution is just fine.
+  - Essential for making sure that you understand the problem and the expected output
+  - Don't be afraid to ask "dumb" questions
+    - The dumbest the better, you must be sure of each relevant data
+    - The interviewer would rather you ask a question than get the wrong answer
+  - Use examples whenever possible, they will be useful when testing
+    - Start a few brain threads to find corner cases in the meantime
+  - Try discovering the input/output `size` and input/output `limit range`
+    - Quite helpful for determining the time and space complexity of your solution
+      - if the input size is very large
+        - you might want to use a more efficient algorithm or data structure
+    - `size` helps you with time and space complexity, like
+      - Length of an array
+      - Size of the answer
+        - Uncommon, but possible to be asked about all permutations of an array for example
+    - `limit range` helps you to tailor your thoughts towards an observational solution
+      - Most problems might have a very simple and creative solution
+      - Sometimes you can make an observation connecting an input/output condition with the expected answer, like
+        - Get the greatest range multiplication from an array _without negative values_
+          - Considering what zero makes within a multiplication
+            - Zeroes never help, so... If you ignore them?
+            - Split the array into segments of positive values
+            - Just return the greatest one :)
+        - Get the winner of a tennis match _given each turn point winner_
+          - Problem might explain many rules of tennis
+            - The winner always makes the last turn point, so... If you ignore the others?
+              - Just return the last one :)
+- By this point you should have understood the question and all of its details
+  - Think about distinct solutions and their trade-offs
+    - Start by the simplest naive iterative solution and its expected complexity
+    - Now its time to understand repeated operations
+      - Algorithms and Data structures are useful here
+    - There is no "best" solution for every problem
+      - The best solution will depend on the specific constraints of the problem
+    - Think about different possible solutions
+      - Use time and space complexity to compare between them
+        - Data structures
+          - Size (size complexity)
+            - Segment trees consumes more than the input size
+          - Query (time complexity)
+          - Update (time complexity)
+        - Algorithms
+        - Runtime (size complexity)
+          - Hardly less than input size complexity
+            - It's tacky to not at least pass by each value once :)
+          - It probably has a well defined worst case complexity
+        - Memory (size complexity)
+          - Some algorithms might use:
+            - more memory
+              - like dynamic programming
+            - others none
+              - like returning the greatest value
+- Write good quality code
+  - readable, efficient, and well-tested
+  - easy to understand for both you and the interviewer
+- Test the code
+  - Test your code against a variety of input/output scenarios
+    - Passing by all corner cases and edge cases is probably enough
+  - If confused, running it against small input/output scenarios may help
+    - Explain what happens over each execution step
+      - Actually creating the variables and explaining how their value changes is just fine :)
+    - The interviewer is there to help you
+- Breathe and get back to the problem
 
 ## Behavioral interview
 
