@@ -230,22 +230,16 @@ Few guides:
 
 - Follow-up questions
   - This shows that you're engaged in the conversation and that you're genuinely interested in learning more about the company and the role
+  - Maybe related to the problem or ask if happened at a real project
 - What are the biggest challenges that the team is facing right now?
-- What are the opportunities for growth and development in this role?
+- What are the opportunities for growth and development?
 - What is the company culture like?
-- Why is this position open?
-- What are the next steps in the hiring process?
+- Why is this position open? Who is expected to fill it?
+- How the routine of good performers looks like?
 - On-call
   - What is the rotation period? (i.e. Every two weeks)
   - How much time is expected to spend away from standard tasks?
   - Is the team looking for avoiding more tickets?
-- Remote work
-  - What are the rules?
-  - Does employees receive tool reimbursement?
-- Promotion
-  - Are there enough projects to support next level experience?
-  - What are expectations? And what should be improved to get promoted?
-  - How the promotion process looks like?
 
 ## After the interview
 
