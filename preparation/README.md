@@ -211,23 +211,6 @@ I have defined some kind of algorithm, still ongoing process. Let's use Twitter 
    - User experience: How easy will it be for users to use your system?
    - Extensibility: How easy will it be to add new features to your system in the future?
 
-Few guides:
-
-- Understand the project idea and look at it as a user
-- Ask clarifying questions with more details and remove ambiguity
-- Define which data should be stored
-- Think about how you would organize their storage
-- Understand data flow and define APIs to access them
-- Draw a few boxes with a general flow from the UI request to the response
-- Estimate resource usage and investigate where is the bottleneck
-- Discussions may touch:
-  - Security
-  - Deployment
-  - Automation
-  - Maintenance
-  - Metrics collection
-    - Alarms
-
 ## Ask at the end
 
 By the end of each interview, you are expected to have around 5 minutes to ask a few questions to the interviewer. It's an opportunity to clarify if you actually likes the company and maybe show interest through an unexpected curiosity.
