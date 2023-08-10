@@ -27,10 +27,8 @@ The interview process generally consists of a few interviews, the goal is to cov
 - Be prepared for anything.
   - The interviewer might ask you a question that you have never seen before
     - Be prepared to think on your feet and to come up with a solution
-- Don't be afraid to ask for help
-  - got stuck?
-    - don't be afraid to ask the interviewer for help
-      - The interviewer is there to help you succeed
+- Got stuck? Don't be afraid to ask for help
+  - The interviewer is there to help you succeed
 
 ## Coding interview
 
@@ -44,29 +42,29 @@ I think the best result comes from the ease of understanding an interviewer has 
   - Be honest if you already saw the question before
   - Don't be afraid to ask "dumb" questions
     - The dumbest the better, you must be sure of each relevant data
-    - The interviewer would rather you ask a question than get the wrong answer
+    - The interviewer would rather be asked a question than you get the wrong answer
   - Use examples whenever possible, they will be useful when testing
     - Start a few brain threads to find corner cases in the meantime
-  - Try discovering the input/output `size` and input/output `limit range`
-    - Quite helpful for determining the time and space complexity of your solution
-      - if the input size is very large
-        - you might want to use a more efficient algorithm or data structure
-    - `size` helps you with time and space complexity, like
-      - Length of an array
-      - Size of the answer
-        - Uncommon, but possible to be asked about all permutations of an array for example
-    - `limit range` helps you to tailor your thoughts towards an observational solution
-      - Most problems might have a very simple and creative solution
-      - Sometimes you can make an observation connecting an input/output condition with the expected answer, like
-        - Get the greatest range multiplication from an array _without negative values_
-          - Considering what zero makes within a multiplication
-            - Zeroes never help, so... If you ignore them?
-            - Split the array into segments of positive values
-            - Just return the greatest one :)
-        - Get the winner of a tennis match _given each turn point winner_
-          - Problem might explain many rules of tennis
-            - The winner always makes the last turn point, so... If you ignore the others?
-              - Just return the last one :)
+- Try discovering the input/output `size` and input/output `limit range`
+  - Quite helpful for determining the time and space complexity of your solution
+    - if the input size is very large
+      - you might want to use a more efficient algorithm or data structure
+  - `size` helps you with time and space complexity, like
+    - Length of an array
+    - Size of the answer
+      - Uncommon, but possible to be asked about all permutations of an array for example
+  - `limit range` helps you to tailor your thoughts towards an observational solution
+    - Most problems might have a very simple and creative solution
+    - Sometimes you can make an observation connecting an input/output condition with the expected answer, like
+      - Get the greatest range multiplication from an array _without negative values_
+        - Considering what zero makes within a multiplication
+          - Zeroes never help, so... If you ignore them?
+          - Split the array into segments of positive values
+          - Just return the greatest one :)
+      - Get the winner of a tennis match _given each turn point winner_
+        - Problem might explain many rules of tennis
+          - The winner always makes the last turn point, so... If you ignore the others?
+            - Just return the last one :)
 - Iterate through some examples...
   - Start thinking about potential solutions
     - Be creative
