@@ -56,7 +56,7 @@ I think the best result comes from the ease of understanding an interviewer has 
   - `limit range` helps you to tailor your thoughts towards an observational solution
     - Most problems might have a very simple and creative solution
     - Sometimes you can make an observation connecting an input/output condition with the expected answer, like
-      - Get the greatest range multiplication from an array
+      - Get the greatest range multiplication from an array with non-negative integers
         - Sounds like a more complex algorithm
         - Observation: _Zeroes never help at multiplication_
         - So... If you ignore them?
