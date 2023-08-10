@@ -160,8 +160,10 @@ I have defined some kind of algorithm, still ongoing process. Let's use Twitter 
      - Favorite color
    - Tweet db should have like
      - Id (primary key if sql)
+     - UserId (foreign key if sql)
      - Brilliant 256 character thoughts
-   - Subscription db TODO
+   - Subscription db
+     - TODO
 1. Understand the forecasts by asking more dumb questions (try guessing a few answers to keep the conversation fluid)
    - How many users?
    - How many requests per day?
