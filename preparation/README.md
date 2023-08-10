@@ -78,11 +78,11 @@ I think the best result comes from the ease of understanding an interviewer has 
   - Large examples for scalability test
   - Edge cases that test the robustness of your solution
 - By this point you should have understood the question and all of its details
-  - Trade offs to be considered when choosing a solution
+  - Trade offs to be considered when choosing a solution (from most important to less relevant)
+    - Correctness
     - Time complexity
     - Space complexity
     - Ease of implementation
-    - Correctness
     - Code readability
   - Think about distinct solutions
     - Start by the simplest naive iterative solution and its expected complexity
