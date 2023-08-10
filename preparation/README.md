@@ -132,8 +132,6 @@ I recommend using LeetCode, but smartly: https://neetcode.io/practice. It contai
 
 This interview generally takes up to an hour, and you are generally expected to cover a few of your past experiences. The key point is not to feel ashamed of mistakes, they are quite useful when you have learned a lesson. As you make more distinct mistakes, the better you tend to become.
 
-Few guides:
-
 - Don't be very technical
 - Add STAR method explanation link
 
@@ -214,8 +212,6 @@ I have defined some kind of algorithm, still ongoing process. Let's use Twitter 
 ## Ask at the end
 
 By the end of each interview, you are expected to have around 5 minutes to ask a few questions to the interviewer. It's an opportunity to clarify if you actually likes the company and maybe show interest through an unexpected curiosity.
-
-Few guides:
 
 - Follow-up questions
   - This shows that you're engaged in the conversation and that you're genuinely interested in learning more about the company and the role
