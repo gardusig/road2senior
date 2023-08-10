@@ -98,16 +98,16 @@ I think the best result comes from the ease of understanding an interviewer has 
           - Query (time complexity)
           - Update (time complexity)
         - Algorithms
-        - Runtime (size complexity)
-          - Hardly less than input size complexity
-            - It's tacky to not at least pass by each value once :)
-          - It probably has a well defined worst case complexity
-        - Memory (size complexity)
-          - Some algorithms might use:
-            - more memory
-              - like dynamic programming
-            - others none
-              - like returning the greatest value
+          - Runtime (size complexity)
+            - Hardly less than input size complexity
+              - It's tacky to not at least pass by each value once :)
+            - It probably has a well defined worst case complexity
+          - Memory (size complexity)
+            - Some algorithms might use:
+              - more memory
+                - like dynamic programming
+              - others none
+                - like returning the greatest value
 - Write good quality code
   - readable, efficient, and well-tested
   - use comments to explain your code
