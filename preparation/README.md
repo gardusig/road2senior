@@ -111,12 +111,10 @@ I think the best result comes from the ease of understanding an interviewer has 
 - Write good quality code
   - readable, efficient, and well-tested
   - use comments to explain your code
-    - help the interviewer to understand your code and debug it
-  - or invest into pretty well written variable and method names
-    - it's faster to write an almost good comment than finding the best name btw
+    - or invest into pretty well written variable and method names
+      - it's faster to write an almost good comment than finding the best name btw
   - easy to understand for both you and the interviewer
-  - use proper indentation and spacing
-    - makes your code easier to read and understand
+    - use proper indentation and spacing
 - Test the code
   - Test your code against a variety of input/output scenarios
     - Passing by all corner cases and edge cases is probably enough
