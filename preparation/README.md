@@ -162,22 +162,24 @@ I have defined some kind of algorithm, still ongoing process. Let's use Twitter 
      - Id (primary key if sql)
      - Brilliant 256 character thoughts
    - Subscription db TODO
-1. Understand the expected traffic by asking more dumb questions. Don't forget to guess a few answers to keep the conversation fluid
+1. Understand the forecasts by asking more dumb questions (try guessing a few answers to keep the conversation fluid)
    - How many users?
    - How many requests per day?
    - Write/read ratio?
    - Budget/Timeline (startups does not allow to evaluate many alternatives)
-   - Auth layer/system
-   - Metrics collection
-   - Log system
-   - Data formats (monoliths are easier to handle, better consistency)
-     - protocol buffers
-     - json
-     - xml
-     - smoke signal
-   - Communication (monoliths are easier to handle, better consistency)
-     - HTTP
-     - gRPC
+   - Integrations
+     - Auth layer/system
+     - Metrics collection
+     - Log
+   - Preferences:
+     - Data formats (monoliths are easier to handle, better consistency)
+       - protocol buffers
+       - json
+       - xml
+       - smoke signal
+     - Communication (monoliths are easier to handle, better consistency)
+       - HTTP
+       - gRPC
    - Availability. What is more important, consistency or speed?
      - Considering medical and bank stuff, consistency is very important
      - Brilliant 256 character thoughts? Nah, as quick as possible, no one will die if one disappear
