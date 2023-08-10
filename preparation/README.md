@@ -56,15 +56,17 @@ I think the best result comes from the ease of understanding an interviewer has 
   - `limit range` helps you to tailor your thoughts towards an observational solution
     - Most problems might have a very simple and creative solution
     - Sometimes you can make an observation connecting an input/output condition with the expected answer, like
-      - Get the greatest range multiplication from an array _without negative values_
-        - Considering what zero makes within a multiplication
-          - Zeroes never help, so... If you ignore them?
-          - Split the array into segments of positive values
-          - Just return the greatest one :)
-      - Get the winner of a tennis match _given each turn point winner_
-        - Problem might explain many rules of tennis
-          - The winner always makes the last turn point, so... If you ignore the others?
-            - Just return the last one :)
+      - Get the greatest range multiplication from an array
+        - Sounds like a more complex algorithm
+        - Observation: _Zeroes never help at multiplication_
+        - So... If you ignore them?
+          - Split the array into segments without zeroes
+          - Just return the greatest one among them :)
+      - Get the winner of a tennis match
+        - Problem explains many rules of tennis, sounds complex
+        - Observation: _The winner always makes the last turn point_
+        - So... If you ignore the others?
+          - Just return the last one :)
 - Iterate through some examples...
   - Start thinking about potential solutions
     - Be creative
