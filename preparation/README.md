@@ -52,7 +52,7 @@ This interview generally takes up to an hour, and you are generally expected to 
 
 ## Ask at the end
 
-By the end of each interview, you are expected to have around 5 minutes to ask a few questions to the interviewer. It's an opportunity to clarify if you actually likes the company and maybe show interest through an unexpected curiosity. [here](./followup.md).
+By the end of each interview, you are expected to have around 5 minutes to ask a few questions to the interviewer. It's an opportunity to clarify if you actually like the company and maybe show interest through an unexpected curiosity. [here](./followup.md).
 
 ## After the interview
 
