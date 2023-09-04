@@ -14,26 +14,25 @@ The STAR method is a structured way of answering behavioral interview questions.
 
 ## Stories
 
+### Why have I left Orkes?
+
+I was initially happy with the remote contract at the startup. The compensation was much higher than I would have received as a full-time employee in Brazil, and I had the freedom to work from anywhere. However, I soon realized that the company culture was not a good fit for me. They were looking for people who would follow a command-and-control management style, and I am more of a creative thinker who likes to challenge the status quo. This led to many disagreements, and eventually I felt like I was not able to give my full attention to my side business while working at a startup and lost touch with some messages. As a result, the company decided to end the contract after a year and a half.
+
+I am still proud of the work I did at the startup. I contributed to many open source projects, and I believe that my work has had a positive impact on the community. I learned that it's important to be clear about my expectations and to find a company culture that is a good fit for me.
+
+After the contract ended, I took some vacation after a long time without one. I also made a good deal selling my company, which allowed me to be free to study and get back on the programming track again.
+
 ### Why have I left Amazon?
 
-- 🤯 💰 Remote offer compensation:
-  - Changed currency, from `BRL` to `USD`:
-    - Increased my `gross income` by at least 50%
-  - Changed job type, from standard employee to contractor:
-    - Increased my `net income` by at least 100%, due to less taxes
-- 😑 🏝 Constant push back around `return to office`:
-  - Office city was in my hometown, not that exciting
-  - Freedom to live anywhere, while:
-    - Earning more
-    - Spending less
-- 😴 😎 `Amazon.com.br` projects weren't that interesting, basically adding more layers to existing services in order to be compliant with Brazilian laws
-  - New job projects were much more interesting at the moment, startup feeling
-- 😩 😠 Worked basically on `tech debt` since day 1
-  - Improved resilience score of a service that was transferred to another team right after that
-  - Next tasks were very similar, doing the same stuff for a new service 😒
-- 🤩 🤔 New company was small and was totally unique for my career
-  - Liked the founders and saw a great learning opportunity
-  - I had to solve many distinct problems in a short period of time that made me much quicker
+I joined Amazon as a software engineer on the amazon.com.br fba team. I was excited about the opportunity to work for a large and innovative company, but I quickly realized that the role was not a good fit for me.
+
+The projects I was working on were not very challenging or interesting. I was basically adding more layers to existing services in order to be compliant with Brazilian laws. I also felt like I was constantly working on tech debt. I improved the resilience score of a service, but it was then transferred to another team and I was given a new task that was very similar.
+
+In addition, I was not happy with the compensation and benefits. As a Brazilian employee, I was paid in BRL and had to pay high taxes. When I was offered a remote position at a startup in Silicon Valley, I jumped at the chance.
+
+The new position paid me in USD and I had much lower taxes. I was also able to work remotely, which gave me the freedom to live anywhere I wanted. I was much happier with the projects I got to work on and felt like I made a real impact.
+
+I am excited about the future and I am confident that I made the right decision to leave Amazon.
 
 ### Tell me about a time when you had to deal with a difficult customer.
 
