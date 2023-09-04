@@ -1,0 +1,2 @@
+- Don't be very technical
+- Add STAR method explanation link
