@@ -18,6 +18,10 @@ The STAR method is a structured way of answering behavioral interview questions.
 
 I was initially happy with the remote contract at the startup. The compensation was much higher than I would have received as a full-time employee in Brazil, and I had the freedom to work from anywhere. However, I soon realized that the company culture was not a good fit for me. They were looking for people who would follow a command-and-control management style, and I am more of a creative thinker who likes to challenge the status quo. This led to many disagreements, and eventually I felt like I was not able to give my full attention to my side business while working at a startup and lost touch with some messages. As a result, the company decided to end the contract after a year and a half.
 
+The company culture changed after the first year. It became more stressful and demanding, and the management team was less supportive. I felt like I was no longer being heard or valued. I also saw how the team was being treated, and I didn't want to be a part of that.
+
+I was disappointed that the management team stopped appearing and recommended to avoid code reviews. I felt like they didn't care about the team or the work we were doing. This made me feel like I was on my own, and it made it difficult to get the support I needed.
+
 I am still proud of the work I did at the startup. I contributed to many open source projects, and I believe that my work has had a positive impact on the community. I learned that it's important to be clear about my expectations and to find a company culture that is a good fit for me.
 
 After the contract ended, I took some vacation after a long time without one. I also made a good deal selling my company, which allowed me to be free to study and get back on the programming track again.
