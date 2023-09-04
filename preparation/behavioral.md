@@ -31,6 +31,9 @@ The STAR method is a structured way of answering behavioral interview questions.
 - 😩 😠 Worked basically on `tech debt` since day 1
   - Improved resilience score of a service that was transferred to another team right after that
   - Next tasks were very similar, doing the same stuff for a new service 😒
+- 🤩 🤔 New company was small and was totally unique for my career
+  - Liked the founders and saw a great learning opportunity
+  - I had to solve many distinct problems in a short period of time that made me much quicker
 
 ### Tell me about a time when you had to deal with a difficult customer.
 
