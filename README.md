@@ -2,7 +2,7 @@
 
 ## Preparation
 
-Consists of general guidance to excel at your real interviews
+Consists of general guidance to feel better prepared and excel at your interviews :)
 
 ## Solutions
 
