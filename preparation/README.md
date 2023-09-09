@@ -38,7 +38,10 @@ I think the best result comes from the ease of understanding an interviewer has 
 
 ### Practice
 
-I recommend using LeetCode, but smartly: https://neetcode.io/practice. It contains a list of useful problems aiming for the highest interview topic coverage.
+I recommend using LeetCode, but smartly (by filtering which questions and not randomly solving them):
+
+- https://neetcode.io/practice
+- https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions
 
 ## Behavioral interview
 
