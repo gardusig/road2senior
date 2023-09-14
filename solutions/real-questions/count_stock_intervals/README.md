@@ -1,6 +1,6 @@
 # Problem statement
 
-Given an array ("stocks") with stock price on each day, Considering [L, R] as all the elements from stocks[L] to stocks[R]. Count how many intervals satisfy any of these conditions:
+Given an array ("stocks") with stock price on each day, consider [L, R] as all the elements from stocks[L] to stocks[R]. Count how many intervals satisfy any of these conditions:
 
 - stocks[L] is the greatest in the interval
 - stocks[R] is the greatest in the interval
