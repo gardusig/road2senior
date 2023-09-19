@@ -14,6 +14,23 @@ The STAR method is a structured way of answering behavioral interview questions.
 
 ## Stories
 
+- Add a title summarizing the story into an impactful message
+  - Easy to remember and may catch interviewer attention
+    - Like a sensationalist news headline
+- Evaluate consistency between stories
+  - One must not invalidate another, they should complement each other
+    - Beware of writing style, may be easier to remember when following a pattern
+    - Do like Sherlock Holmes - be consistent and methodical
+- People like numbers, why not make stories sound a bit more palpable?
+  - Just add fucking details everywhere
+    - Awesome improvement you have made at service X... But, by how much percent?
+    - Astonishingly processing time reduction at service Y... By how much, hum?
+    - Do like Gabriela Prioli - seasoning with granular refined data and its source
+- Remove unnecessary details
+  - Still figuring out what is not recommended to speak at an interview
+- Tailor each story towards a positive feeling by the end
+  - Do like He Man - conclude them with a lessons learned at the end
+
 ### Why have I left Orkes?
 
 I was initially happy with the remote contract at the startup. The compensation was much higher than I would have received as a full-time employee in Brazil, and I had the freedom to work from anywhere. However, I soon realized that the company culture was not a good fit for me. They were looking for people who would follow a command-and-control management style, and I am more of a creative thinker who likes to challenge the status quo. This led to many disagreements, and eventually I felt like I was not able to give my full attention to my side business while working at a startup and lost touch with some messages. As a result, the company decided to end the contract after a year and a half.
@@ -39,6 +56,8 @@ The new position paid me in USD and I had much lower taxes. I was also able to w
 Leaving Amazon was clearly the right choice. Even got an equivalent offer from AWS to relocate to Canada, but that's another disappointing story of many suboptimal decisions.
 
 ### Why have I left Beyond?
+
+TODO
 
 ### Tell me about a time when you had to deal with a difficult customer.
 
