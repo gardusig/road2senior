@@ -36,7 +36,7 @@ In addition, I was not happy with the compensation and benefits. As a Brazilian 
 
 The new position paid me in USD and I had much lower taxes. I was also able to work remotely, which gave me the freedom to live anywhere I wanted. I was much happier with the projects I got to work on and felt like I made a real impact.
 
-Leaving Amazon was clearly the right choice. Even got an equivalent offer from AWS to relocate to Canada, but that's a disappointing story of many suboptimal decisions.
+Leaving Amazon was clearly the right choice. Even got an equivalent offer from AWS to relocate to Canada, but that's another disappointing story of many suboptimal decisions.
 
 ### Why have I left Beyond?
 
