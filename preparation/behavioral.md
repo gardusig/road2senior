@@ -59,6 +59,18 @@ Leaving Amazon was clearly the right choice. Even got an equivalent offer from A
 
 TODO
 
+### How I upscaled Amazon FBA invoice services just enough before Black Friday 2021
+
+- Talk about collaborative stuff with neighbor team, to understand forecasted data
+- Evaluate TPS
+- Evaluate which APIs exist and their usage distribution over time with metrics
+  - Get the most used ones
+    - Evaluate their costs per request
+  - Get the amount of expected requests
+    - Divide by the amount a single host can handle
+  - It's something like, 10 requests per second
+  - If forecasted 500, 50 machines should handle the peak flawlessly
+
 ### Tell me about a time when you had to deal with a difficult customer.
 
 TODO
