@@ -1,9 +1,9 @@
 # road2senior
 
-## Preparation
+## [Preparation](./preparation/README.md)
 
 Consists of general guidance to feel better prepared and excel at your interviews :)
 
-## Solutions
+## [Solutions](./solutions/)
 
 Solutions for coding problems. Contains problems from real interviews and training platforms.
