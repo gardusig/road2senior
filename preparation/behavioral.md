@@ -55,10 +55,6 @@ The new position paid me in USD and I had much lower taxes. I was also able to w
 
 Leaving Amazon was clearly the right choice. Even got an equivalent offer from AWS to relocate to Canada, but that's another disappointing story of many suboptimal decisions.
 
-### Why have I left Beyond?
-
-TODO
-
 ### How I upscaled Amazon FBA invoice services just enough before Black Friday 2021
 
 - Talk about collaborative stuff with neighbor team, to understand forecasted data
@@ -75,8 +71,7 @@ TODO
 
 - Twilio wanted to use the product, but not only asked but almost set a requirement - to have Go SDK
 - Previously to me, only java developers had support
-- I created Python SDK
-- Improved Java SDK
+
 - Then it was the first time I touched Go code
 - Ended up creating a client for transforming Go functions into Netflix Conductor workflow task workers
   - It contained a few wrappers for server side HTTP communication through its APIs
@@ -85,22 +80,17 @@ TODO
   - Polled for tasks in batches, starting a separate go routine for each execution
   - Managed amount of available resources, keeping concurrent operations as much to a pre defined limit
 
-### Tell me about a time when you had to deal with a difficult customer.
+### How have I managed all SDKs while at Orkes
 
-TODO
-
-### Describe a situation where you had to work under pressure.
-
-TODO
-
-### Give me an example of a time when you went above and beyond your job duties.
-
-TODO
-
-### How have you used your leadership skills in a previous job?
-
-TODO
-
-### What is your biggest weakness? How have you been working to improve it?
-
-TODO
+- Created Python and Go SDKs
+- Improved Java SDK
+- Helped to launch C#, JS and Clojure SDKs
+- Created integration tests aiming for 100% coverage of relevant code, like most used APIs
+- Automated build, test and release through CI/CD at GitHub actions
+- Virtually each SDK had automation for:
+  - generating HTTP server side API code through swagger codegen
+  - run tests automatically on pull request events
+  - build package and publish to pkg manager on new release events
+- Handle GitHub issues and package versioning
+  - Broke compatibility
+  - Fixed them overnight
