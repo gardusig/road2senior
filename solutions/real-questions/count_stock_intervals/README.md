@@ -1,9 +1,9 @@
 # Problem statement
 
-Given an array ("stocks") with stock price on each day, consider [L, R] as all the elements from stocks[L] to stocks[R]. Count how many intervals satisfy any of these conditions:
+Given an array ("stocks") with stock price on each day, consider $[L, R]$ as all the elements from $stocks[L]$ to $stocks[R]$. Count how many intervals satisfy any of these conditions:
 
-- stocks[L] is the greatest in the interval
-- stocks[R] is the greatest in the interval
+- $stocks[L]$ is the greatest in the interval
+- $stocks[R]$ is the greatest in the interval
 
 All of these are **valid**:
 
@@ -20,7 +20,7 @@ All of these are **in**valid:
 - `[1, 2, 1]`
 - `[1, 2, 3, 2]`
 
-Constraints:
+## Constraints:
 
 - $1 <= N <= 5*10^5$
 - $1 <= stocks[i] <= 10^9$
