@@ -7,7 +7,7 @@ import (
 	"github.com/gardusig/road2senior/solutions/countstocks/internal"
 )
 
-var smallInputs = [][]int32{
+var smallInputData = [][]int32{
 	{},
 	{1, 1, 1},
 	{1, 1, 2},
@@ -26,9 +26,16 @@ func init() {
 	// logrus.SetLevel(logrus.DebugLevel)
 }
 
-func TestServerSetup(t *testing.T) {
-	for _, smallInput := range smallInputs {
+func TestSmallInputData(t *testing.T) {
+	for _, smallInput := range smallInputData {
 		answerBrute := internal.CountStockIntervalsBrute(smallInput)
 		fmt.Println("brute: ", answerBrute)
+	}
+}
+
+func TestSolutionNlogN(t *testing.T) {
+	for _, smallInput := range smallInputData {
+		answerNlogN := internal.CountStockIntervals(smallInput)
+		fmt.Println("answerNlogN: ", answerNlogN)
 	}
 }
