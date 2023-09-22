@@ -1,9 +1,10 @@
 package internal
 
 import (
-	"fmt"
 	"math"
 	"sort"
+
+	"github.com/sirupsen/logrus"
 )
 
 func CountStockIntervals(stocks []int32) int64 {
@@ -14,46 +15,61 @@ func CountStockIntervals(stocks []int32) int64 {
 
 func countIntervalsWithOneStrictlyGreaterBorder(array []int32) int64 {
 	compressedArray := getCompressedArray(array)
-	fmt.Println("array: ", array)
-	fmt.Println("compressed: ", compressedArray)
+	logrus.Debug("array: ", array)
+	logrus.Debug("compressed: ", compressedArray)
 	total := int64(0)
-	total += countIntervalsWithStrictlyGreaterLeftBorder(compressedArray)
-	total += countIntervalsWithStrictlyGreaterRightBorder(compressedArray)
+	total += countIntervalsWithGreaterLeftBorder(compressedArray)
+	total += countIntervalsWithGreaterRightBorder(compressedArray)
+	total += countIntervalsWithEqualBorder(compressedArray)
 	return total
 }
 
 // gets min R for each index, where v[R] >= v[L] and R > L
 // so v[L] is strictly greater than all values at indexes from L + 1 to R - 1
-func countIntervalsWithStrictlyGreaterLeftBorder(compressedArray []int) int64 {
-	length := len(compressedArray)
+func countIntervalsWithGreaterLeftBorder(compressedArray []int) int64 {
 	intervals := 0
-	bit := NewMinRangeFenwickTree(length + 5)
-	bit.UpdateMin(length, length)
-	for i := length - 1; i >= 0; i -= 1 {
-		L := i
-		R := min(length, bit.QueryMin(length-compressedArray[i]))
-		bit.UpdateMin(length-compressedArray[i], i)
-		fmt.Println("L: ", L, ", R: ", R)
+	length := len(compressedArray)
+	bit := NewMinRangeFenwickTree(length + 1)
+	for L := length - 1; L >= 0; L -= 1 {
+		R := min(length, bit.QueryMin(length-compressedArray[L]))
+		bit.UpdateMin(length-compressedArray[L], L)
+		logrus.Debug("L: ", L, ", R: ", R)
 		intervals += max(0, R-L-1)
 	}
-	fmt.Println("total intervals with fixed L: ", intervals)
+	logrus.Debug("total intervals with fixed L: ", intervals)
 	return int64(intervals)
 }
 
 // gets max L for each index, where v[L] >= v[R] and L < R
 // so v[R] is strictly greater than all values at indexes from L + 1 to R - 1
-func countIntervalsWithStrictlyGreaterRightBorder(compressedArray []int) int64 {
-	length := len(compressedArray)
+func countIntervalsWithGreaterRightBorder(compressedArray []int) int64 {
 	intervals := 0
+	length := len(compressedArray)
 	bit := NewMaxRangeFenwickTree(length + 5)
-	for i := 0; i < length; i += 1 {
-		R := i
-		L := max(0, bit.QueryMax(length-compressedArray[i]))
-		bit.UpdateMax(length-compressedArray[i], i)
-		fmt.Println("L: ", L, ", R: ", R)
+	for R := 0; R < length; R += 1 {
+		L := max(-1, bit.QueryMax(length-compressedArray[R]))
+		bit.UpdateMax(length-compressedArray[R], R)
+		logrus.Debug("L: ", L, ", R: ", R)
 		intervals += max(0, R-L-1)
 	}
-	fmt.Println("total intervals with fixed R: ", intervals)
+	logrus.Debug("total intervals with fixed R: ", intervals)
+	return int64(intervals)
+}
+
+// iterates through from the highest to lowest values at compressedArray
+// each iteration checks how many consecutive elements can be grouped,
+// which means checking if any greater value has appeared between each i and i+1,
+// where i is the index of an appearance of value at compressedArray
+// like [2, ..., 2] would check if there is anything greater than 2 between them
+func countIntervalsWithEqualBorder(compressedArray []int) int64 {
+	intervals := 0
+	length := len(compressedArray)
+	sort.Slice(
+		compressedArray,
+		func(i int, j int) bool {
+			return compressedArray[i] < compressedArray[j]
+		},
+	)
 	return int64(intervals)
 }
 
@@ -142,4 +158,25 @@ func getCompressedArray(arr []int32) []int {
 		compressedArray = append(compressedArray, newValue)
 	}
 	return compressedArray
+}
+
+type SortedSet []int
+
+func (s SortedSet) Len() int           { return len(s) }
+func (s SortedSet) Less(i, j int) bool { return s[i] < s[j] }
+func (s SortedSet) Swap(i, j int)      { s[i], s[j] = s[j], s[i] }
+
+func (s SortedSet) Contains(key int) bool {
+	i := sort.Search(len(s), func(i int) bool { return s[i] >= key })
+	return i < len(s) && s[i] == key
+}
+
+func (s SortedSet) LowerBound(key int) int {
+	i := sort.Search(len(s), func(i int) bool { return s[i] >= key })
+	return i
+}
+
+func (s SortedSet) UpperBound(key int) int {
+	i := sort.Search(len(s), func(i int) bool { return s[i] > key })
+	return i
 }
