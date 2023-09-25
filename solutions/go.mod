@@ -1,4 +1,4 @@
-module github.com/gardusig/road2senior/solutions/countstocks
+module github.com/gardusig/road2senior/solutions
 
 go 1.21.1
 
