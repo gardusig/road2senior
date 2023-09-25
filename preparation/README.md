@@ -1,13 +1,4 @@
-- [Summary](#summary)
-- [Coding interview](#coding-interview)
-- [Behavioral interview](#behavioral-interview)
-- [System design interview](#system-design-interview)
-- [Ask at the end](#ask-at-the-end)
-- [After the interview](#after-the-interview)
-
-# Summary
-
-The interview process generally consists of a few interviews, the goal is to cover each type by documenting a few tricks to prepare and get an offer.
+## General guidance
 
 - Be positive and enthusiastic.
   - The interviewer wants to hire someone who is excited about software development
@@ -51,12 +42,12 @@ The interviewer is looking forward to understanding your thought process on deci
 
 ## System design interview
 
-This interview generally takes up to an hour, and you are generally expected to draw a few things that can be read as a computer system. It does not have to be perfect, otherwise you would be eligible to replace a bunch of people :) Check out more details [here](./sysdesign.md).
+This interview generally takes up to an hour, and you are generally expected to draw a few things that can be read as a computer system. It does not have to be perfect, otherwise you would be eligible to replace a bunch of people. Check out more details [here](./sysdesign.md).
 
 ## Ask at the end
 
-By the end of each interview, you are expected to have around 5 minutes to ask a few questions to the interviewer. It's an opportunity to clarify if you actually like the company and maybe show interest through an unexpected curiosity. [here](./followup.md).
+By the end of each interview, you are expected to have around 5 minutes to ask a few questions to the interviewer. It's an opportunity to clarify if you actually like the company and maybe show interest through an unexpected curiosity. Check out more details [here](./followup.md).
 
 ## After the interview
 
-Send a thank-you note to the interviewer. I personally think it's as useful as a cover letter.
+Send a thank-you note to the interviewer. I personally think it's as useful as a cover letter is.
