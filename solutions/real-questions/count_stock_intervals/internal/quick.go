@@ -63,7 +63,7 @@ func countIntervalsWithGreaterRightBorder(compressedArray []int) int64 {
 // like [2, ..., 2] would check if there is anything greater than 2 between them
 func countIntervalsWithEqualBorder(compressedArray []int) int64 {
 	intervals := 0
-	length := len(compressedArray)
+	// length := len(compressedArray)
 	sort.Slice(
 		compressedArray,
 		func(i int, j int) bool {

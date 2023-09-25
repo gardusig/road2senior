@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/gardusig/road2senior/solutions/countstocks/internal"
+	"github.com/gardusig/road2senior/solutions/countstocks/real-questions/count_stock_intervals/internal"
 )
 
 var smallInputData = [][]int32{
