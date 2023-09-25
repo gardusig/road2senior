@@ -6,11 +6,11 @@ func rawSolve(A int, B int, C int) int {
 	best := 0
 	maxSingleAmount := C / A
 	maxDoubleAmount := C / B
-	for qtySingle := max(0, maxSingleAmount-20); qtySingle <= maxSingleAmount; qtySingle += 1 {
+	for qtySingle := max(0, maxSingleAmount-1); qtySingle <= maxSingleAmount; qtySingle += 1 {
 		qtyDouble := (C - (qtySingle * A)) / B
 		best = max(best, solve(qtySingle, qtyDouble))
 	}
-	for qtyDouble := max(0, maxDoubleAmount-20); qtyDouble <= maxDoubleAmount; qtyDouble += 1 {
+	for qtyDouble := max(0, maxDoubleAmount-1); qtyDouble <= maxDoubleAmount; qtyDouble += 1 {
 		qtySingle := (C - (qtyDouble * B)) / A
 		best = max(best, solve(qtySingle, qtyDouble))
 	}
@@ -26,7 +26,7 @@ func solve(S int, D int) int {
 
 func guessMaxCheeseBurgerDeckerSize(bun int, patty int, cheese int) int {
 	lo := 1
-	hi := 10123456789012345
+	hi := 20123456789012345
 	for lo <= hi {
 		mid := lo + ((hi - lo) >> 1)
 		if isCheeseBurgerPossibleToBuild(mid, bun, patty, cheese) {
