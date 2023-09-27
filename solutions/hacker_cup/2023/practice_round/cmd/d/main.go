@@ -90,14 +90,10 @@ func getComponentsWithOddCycle(N int, inputGraph []map[int]bool, componentQuanti
 			if isBridge {
 				continue
 			}
-			if nodeColor[neighbor] == -1 {
-				if !dfsIsTwoColorable(neighbor, color^1) {
-					ans = false
-				}
-			}
-			if nodeColor[neighbor] == color {
+			if nodeColor[neighbor] == -1 && !dfsIsTwoColorable(neighbor, color^1) {
 				ans = false
 			}
+			ans = ans && (nodeColor[neighbor] != color)
 		}
 		return ans
 	}
