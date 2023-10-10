@@ -53,7 +53,6 @@ func readTestCaseInputData(input *TestCaseInputData) {
 }
 
 func solveTestCase(input *TestCaseInputData) string {
-	total := 0
 	current := 0
 	isPressRequiredToSolve := countNeededPresses(input.N, input.S)
 	for idx := 1; idx <= input.N; idx += 1 {
@@ -61,6 +60,7 @@ func solveTestCase(input *TestCaseInputData) string {
 			current += 1
 		}
 	}
+	total := 0
 	for _, b := range input.B {
 		if isPressRequiredToSolve[b] {
 			current--
