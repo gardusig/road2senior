@@ -22,3 +22,9 @@ Solutions for coding problems. Contains problems from real interviews and traini
 - [Meta Hacker Cup](./problem-solving/hacker_cup/)
 - [Meta Careers coding puzzles](./problem-solving/meta_coding_puzzles/)
 - [Questions from real interviews](./problem-solving/real-questions/)
+
+## [System Design](./system-design/)
+
+Systems designed for architecture problems. Contains problems from real interviews.
+
+- [Fraud Service](./system-design/fraud-service/)
