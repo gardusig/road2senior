@@ -76,7 +76,31 @@ func isPalindrome(L int, R int, v []int) bool {
 	return true
 }
 
+func isClearlyInvalid(N int, A []int, B []int) bool {
+	elementFrequency := make(map[int]int)
+	for i := 0; i < N; i++ {
+		elementFrequency[A[i]]++
+		elementFrequency[B[i]]++
+	}
+	hasOddFrequency := false
+	for _, value := range elementFrequency {
+		if (value & 1) == 1 {
+			if hasOddFrequency {
+				return true
+			}
+			hasOddFrequency = true
+		}
+	}
+	if (N&1) == 0 && hasOddFrequency {
+		return true
+	}
+	return false
+}
+
 func solveTestCase(input *TestCaseInputData) string {
+	if isClearlyInvalid(input.N, input.A, input.B) {
+		return fmt.Sprint(-1)
+	}
 	concatenatedArrays := make([]int, input.N*4)
 	for i := 0; i < input.N; i++ {
 		concatenatedArrays[i] = input.A[i]

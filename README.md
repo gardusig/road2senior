@@ -15,10 +15,10 @@ Goal is to cover each type by documenting a few guidance tricks to prepare and g
 
 My own implementation of algorithms and data structures to be used as reference at real programming competitions
 
-## [Solutions](./solutions/)
+## [Problem Solving](./problem-solving/)
 
 Solutions for coding problems. Contains problems from real interviews and training platforms.
 
-- [Meta Hacker Cup](./solutions/hacker_cup/)
-- [Meta Careers coding puzzles](./solutions/meta_coding_puzzles/)
-- [Questions from real interviews](./solutions/real-questions/)
+- [Meta Hacker Cup](./problem-solving/hacker_cup/)
+- [Meta Careers coding puzzles](./problem-solving/meta_coding_puzzles/)
+- [Questions from real interviews](./problem-solving/real-questions/)
