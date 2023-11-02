@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+package fraud_service;
+
+import "google/protobuf/timestamp.proto";
+
+service FraudService {
+    rpc IsTransactionValid (IsTransactionValidRequest) returns (IsTransactionValidResponse) {}
+}
+
+message IsTransactionValidRequest {
+    string transactionId = 1;
+    string merchantId = 2;
+    string userId = 3;
+    string cardNumber = 4;
+    google.protobuf.Timestamp transactionDate = 5;
+    double transactionAmount = 6;
+    string deviceId = 7;
+    bool hasCbk = 8;
+}
+
+message IsTransactionValidResponse {
+    string transactionId = 1;
+    bool isValid = 2;
+}
