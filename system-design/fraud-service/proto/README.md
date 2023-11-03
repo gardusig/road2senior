@@ -17,11 +17,30 @@ gem install grpc-tools --user-install
 ### Python
 
 ```
-
+protoc --python_out=proto/generated/python --grpc_out=proto/generated/python proto/transaction.proto
 ```
 
 ### Ruby
 
 ```
 grpc_tools_ruby_protoc -I proto --ruby_out=proto/generated/ruby --grpc_out=proto/generated/ruby proto/transaction.proto
+
+grpc_tools_ruby_protoc -I proto --ruby_out=proto/generated/ruby proto/transaction.proto
+
+```
+
+#### TODO
+
+Currently it is required to update `transaction_service_pb.rb` import.
+
+From:
+
+```rb
+require 'transaction_pb'
+```
+
+To:
+
+```rb
+require_relative 'transaction_pb'
 ```
