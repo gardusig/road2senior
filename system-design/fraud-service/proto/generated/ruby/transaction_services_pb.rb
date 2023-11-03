@@ -2,7 +2,7 @@
 # Source: transaction.proto for package 'fraud_service'
 
 require 'grpc'
-require 'transaction_pb'
+require_relative 'transaction_pb'
 
 module FraudService
   module FraudService
