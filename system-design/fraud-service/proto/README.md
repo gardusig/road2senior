@@ -24,9 +24,6 @@ protoc --python_out=proto/generated/python --grpc_out=proto/generated/python pro
 
 ```
 grpc_tools_ruby_protoc -I proto --ruby_out=proto/generated/ruby --grpc_out=proto/generated/ruby proto/transaction.proto
-
-grpc_tools_ruby_protoc -I proto --ruby_out=proto/generated/ruby proto/transaction.proto
-
 ```
 
 #### TODO
