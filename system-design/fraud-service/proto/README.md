@@ -17,7 +17,7 @@ gem install grpc-tools --user-install
 ### Python
 
 ```
-protoc --python_out=proto/generated/python --grpc_out=proto/generated/python proto/transaction.proto
+python3 -m grpc_tools.protoc -Iproto --python_out=proto/generated/python --grpc_python_out=proto/generated/python proto/transaction.proto
 ```
 
 ### Ruby
