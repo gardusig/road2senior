@@ -17,7 +17,7 @@ python3 -m pip install grpcio-tools
 ### Generate
 
 ```
-python3 -m grpc_tools.protoc -Iproto --python_out=client/proto/generated --grpc_python_out=client/proto/generated proto/transaction.proto
+python3 -m grpc_tools.protoc -Iproto --python_out=client/proto/generated --pyi_out=client/proto/generated --grpc_python_out=client/proto/generated proto/transaction.proto
 ```
 
 ## Ruby (server)
