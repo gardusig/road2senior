@@ -1,5 +1,5 @@
 require 'grpc'
-require_relative '/app/generated/transaction_services_pb'
+require_relative '../proto/generated/transaction_services_pb'
 
 class FraudServiceImpl < FraudService::FraudService::Service
   def is_transaction_valid(request, _call)
