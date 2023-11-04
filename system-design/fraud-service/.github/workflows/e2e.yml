@@ -1,0 +1,29 @@
+name: Test
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  e2e:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Set up Docker Compose
+        run: |
+          sudo curl -L "https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+          sudo chmod +x /usr/local/bin/docker-compose
+      - name: Build services
+        run: docker-compose build
+      - name: Start server
+        run: docker-compose up -d server
+      - name: Wait for server to start
+        run: while ! docker-compose logs --tail server | grep -q "server listening at \[::\]:50051"; do sleep 1; done
+      - name: Run client tests
+        run: docker-compose up client
+      - name: Pause the server
+        run: docker-compose pause server
+      - name: Stop and remove Docker Compose services
+        run: docker-compose down
