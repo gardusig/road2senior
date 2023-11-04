@@ -29,7 +29,7 @@ def generate_request() -> transaction_pb2.IsTransactionValidRequest:
 
 
 def main():
-    client = FraudServiceClient("localhost", 50051)
+    client = FraudServiceClient("server", 50051)
     print('Created client')
     request = generate_request()
     response = client.is_transaction_valid(request)

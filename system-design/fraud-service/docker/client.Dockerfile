@@ -4,6 +4,7 @@ WORKDIR /app
 
 COPY /client /app
 
+RUN pip install grpcio
 RUN pip install grpcio-tools
 
 CMD ["python", "main.py"]
