@@ -1,3 +1,7 @@
+import sys
+sys.path.append('/app/proto/generated')
+
+
 from client import FraudServiceClient
 from google.protobuf.timestamp_pb2 import Timestamp
 from proto.generated import transaction_pb2
