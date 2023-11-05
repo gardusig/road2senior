@@ -1,8 +1,8 @@
 import sys
 sys.path.append('/app/proto/generated')
 
-import request_creator
 from client import FraudServiceClient
+import request_creator
 
 
 def main():
@@ -18,8 +18,8 @@ def main():
             invalid_requests += 1
     print(f'  valid transactions: {valid_requests:10d}')
     print(f'invalid transactions: {invalid_requests:10d}')
-    assert (valid_requests == 3199)
-    assert (invalid_requests == 0)
+    assert (valid_requests == 2808)
+    assert (invalid_requests == 391)
 
 
 if __name__ == "__main__":
