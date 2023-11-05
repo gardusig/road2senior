@@ -6,6 +6,9 @@ on:
 jobs:
   e2e:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: path/to/your/directory
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
