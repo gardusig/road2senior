@@ -20,7 +20,7 @@ column_name_to_request_param = {
     "transaction_date": ("transactionDate", get_timestamp_from_str),
     "transaction_amount": ("transactionAmount", float),
     "device_id": ("deviceId", str),
-    "has_cbk": ("hasCbk", bool)
+    "has_cbk": ("hasCbk", lambda x: x == "TRUE")
 }
 
 
