@@ -21,7 +21,7 @@ jobs:
       - name: Start server
         run: docker-compose up -d server
       - name: Wait for server to start
-        run: while ! docker-compose logs --tail server | grep -q "server listening at \[::\]:50051"; do sleep 1; done
+        run: while ! docker-compose logs --tail server | grep -q "server listening at"; do sleep 1; done
       - name: Run client tests
         run: docker-compose up client
       - name: Pause the server
