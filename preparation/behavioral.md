@@ -12,7 +12,7 @@ The STAR method is a structured way of answering behavioral interview questions.
 - **Action**: What steps did you take to achieve your goal? Be as specific as possible and highlight the skills and abilities you used.
 - **Result**: What was the outcome of your actions? Did you achieve your goal? If so, how? If not, what did you learn from the experience?
 
-## Stories
+## Story creation guidance
 
 - Add a title summarizing the story into an impactful message
   - Easy to remember and may catch interviewer attention
@@ -31,11 +31,48 @@ The STAR method is a structured way of answering behavioral interview questions.
 - Tailor each story towards a positive feeling by the end
   - Do like He Man - conclude them with a lessons learned at the end
 
-### Why have I left Orkes?
+## From remote startup developer to nightclub owner
 
-I was initially happy with the remote contract at the startup. The compensation was much higher than I would have received as a full-time employee in Brazil, and I had the freedom to work from anywhere. However, I soon realized that the company culture was not a good fit for me. They were looking for people who would follow a command-and-control management style, and I am more of a creative thinker who likes to challenge the status quo. This led to many disagreements, and eventually I felt like I was not able to give my full attention to my side business while working at a startup and lost touch with some messages. As a result, the company decided to end the contract after a year and a half.
+### Leadership Principles
 
-The company culture changed after the first year. It became more stressful and demanding, and the management team was less supportive. I felt like I was no longer being heard or valued. I also saw how the team was being treated, and I didn't want to be a part of that.
+- Hire and Develop the Best
+- Customer Obsession
+- Ownership
+- Invent and Simplify
+- Think Big
+- Bias for Action
+
+### Entrepreneurial Success
+
+- While I was working remotely for a startup, I got offered an opportunity to purchase a not so organized nightclub/bar.
+- After some visits and evaluation through intuition, I found it was a promising investment.
+- There were two guys managing it before, like hosting events irregularly.
+- Since there were a niche group going there frequently, if I could increase the size of the group, it would become quite profitable.
+- I started by hiring a few people.
+- Got to hire a few service providers as well.
+- In a couple of weeks the entire place got a new visual touch due to renovation.
+- Got to learn what was required for it to work and tried to automate everything that was possible.
+- Every refrigerator must be full at all times, got to move them around the house until they found the right spot to be placed at.
+- Kept swapping team members up to a team that worked out
+- Used the Instagram account as the main company marketing propagator.
+- Got one account stolen, then grew another up to 5k subscribers again.
+- In around 3 months it was already working. In 6 and I didn't even needed to go there for it to work.
+- After too much unsolicited attraction, I decided to seel the company for around 1y of net income.
+- While it was funny, I took some vacation and got back to coding for a large company.
+
+## Why have I left Orkes?
+
+### Leadership Principles
+
+- Think Big
+- Bias for Action
+- Frugality
+
+### Pursuit of a better suitable environment
+
+I was initially happy with the remote contract at the startup. The compensation was much higher than I would have received as a full-time employee in Brazil, and I had the freedom to work from anywhere. However, I soon realized that the company culture was not a good fit for me. They were looking for people who would follow a command-and-control management style, and I am more of a creative thinker who likes to challenge the status quo.
+
+The company culture tone changed after the first year. It became more stressful and demanding, with the management turning to be less supportive. I felt like I was no longer being heard or valued. I also saw how the team was being treated, and I didn't want to be a part of that.
 
 I was disappointed that the management team stopped appearing and recommended to avoid code reviews. I felt like they didn't care about the team or the work we were doing. This made me feel like I was on my own, and it made it difficult to get the support I needed.
 
@@ -43,7 +80,15 @@ I am still proud of the work I did at the startup. I contributed to many open so
 
 After the contract ended, I took some vacation after a long time without one. I also made a good deal selling my company, which allowed me to be free to study and get back on the programming track again.
 
-### Why have I left Amazon?
+## Why have I left Amazon to join a startup?
+
+#### Leadership Principles
+
+- Learn and Be Curious
+- Think Big
+- Frugality
+
+### Desire for more challenging and fulfilling work
 
 I joined Amazon as a software engineer on the amazon.com.br fba team. I was excited about the opportunity to work for a large and innovative company, but I quickly realized that the role was not a good fit for me.
 
@@ -55,32 +100,61 @@ The new position paid me in USD and I had much lower taxes. I was also able to w
 
 Leaving Amazon was clearly the right choice. Even got an equivalent offer from AWS to relocate to Canada, but that's another disappointing story of many suboptimal decisions.
 
-### How I upscaled Amazon FBA invoice services just enough before Black Friday 2021
+## How I upscaled Amazon FBA invoice services just enough?
 
-- Talk about collaborative stuff with neighbor team, to understand forecasted data
-- Evaluate TPS
-- Evaluate which APIs exist and their usage distribution over time with metrics
-  - Get the most used ones
-    - Evaluate their costs per request
-  - Get the amount of expected requests
-    - Divide by the amount a single host can handle
-  - It's something like, 10 requests per second
-  - If forecasted 500, 50 machines should handle the peak flawlessly
+### Leadership Principles
 
-### How I enabled the largest client for Orkes by creating an SDK
+- Customer Obsession
+- Invent and Simplify
+- Insist on the Highest Standards
+- Bias for Action
 
-- Twilio wanted to use the product, but not only asked but almost set a requirement - to have Go SDK
+### Ability to prepare a system for high-demand periods like Black Friday
+
+As one of the biggest e-commerce companies, things do not work as simple as waiting for a load to break systems and then upscale them. Users might go to the competitor purchase what they're looking for if it does not work out at their 1st attempt. Preparation is key to situations like these, and sometimes paying a bit more for being overcautious is just fine.
+
+I had previously worked at understanding the microservices my team was responsible for. It consisted at updating their deployment pipelines to add a new step with tests relevant to higher load. Which means, trying to load test every new merged code before actually deploying it to user facing hosts.
+
+It not only helped the resilience score of the team, but it showed a few important data - like the most transactions per second (TPS) that a server could handle before starting to fail requests.
+
+With that in mind, the neighbor team had some secret data containing their projected amount of clients expected to use our system during the next peak season.
+
+If you evaluate metrics, each service has a few APIs that are much more used than others. Considering the previous TPS and the projected amount of users, you can connect this with the most used APIs.
+
+So you basically know how many requests are expected for this service at the peak. Considering how many requests a single host can handle before failing them. Just divide the amount of forecasted requests per the TPS and then you have the amount of hosts you must have.
+
+We rounded up values to make sure we weren't being too pretentious and it's done. Worked pretty fine during the BF 2021. After that just downscale again and watch the results.
+
+## How I enabled the largest client for Orkes by creating an SDK
+
+### Leadership Principles
+
+- Customer Obsession
+- Ownership
+- Learn and Be Curious
+
+### Adaptability and initiative in learning new technologies to quickly create solutions
+
+- Twilio wanted to use the product, but not only asked but set a requirement - to have Go SDK
 - Previously to me, only java developers had support
-
-- Then it was the first time I touched Go code
-- Ended up creating a client for transforming Go functions into Netflix Conductor workflow task workers
+- It was the first time I touched Go code
+- Ended up creating a client capable of transforming Go functions into Netflix Conductor workflow task workers
   - It contained a few wrappers for server side HTTP communication through its APIs
     - All generated by using swagger codegen
   - Stored auth token
   - Polled for tasks in batches, starting a separate go routine for each execution
   - Managed amount of available resources, keeping concurrent operations as much to a pre defined limit
+- People got happy with results and a new customer was being managed from then on
 
-### How have I managed all SDKs while at Orkes
+## How have I managed all SDKs while at Orkes?
+
+### Leadership Principles
+
+- Customer Obsession
+- Ownership
+- Insist on the Highest Standards
+
+### Commitment to maintain and improve multiple software while automating as much as possible
 
 - Created Python and Go SDKs
 - Improved Java SDK
@@ -94,3 +168,28 @@ Leaving Amazon was clearly the right choice. Even got an equivalent offer from A
 - Handle GitHub issues and package versioning
   - Broke compatibility
   - Fixed them overnight
+
+## How have I dealt with manager disagreement?
+
+### Leadership Principles:
+
+- Customer Obsession
+- Invent and Simplify
+
+### Make informed decisions and communicate effectively
+
+- I had added batch polling feature for a few SDKs
+  - Which increased performance by ~20% due to latency
+- My manager asked to do the same for Python SDK
+- I thought it was a bad idea and disagreed with him
+  - It's not because I know how to do something that we should actually do
+  - Python has GIL, which makes parallel processing a bit more complex and less efficient
+  - This was by far the hardest feature to add for an SDK without breaking compatibility and keep our stability standards
+  - Python is not the most efficient programming language, users looking for better performance probably aren't using this tool
+- I suggested making a few quick fix solution, like relying at multithreading
+  - Which could improve I/O tasks
+  - Still does not run in parallel for CPU tasks
+- By the end it was an agreement that it's a nice to have but does not bring much value
+  - Given a startup context, time management is the most important measure to keep an eye at
+  - Adding a new complex feature with not much return value is a very bad choice
+- Comparing to other priorities on the user request roadmap, it was the right path to be followed at the moment
