@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: path/to/your/directory
+        working-directory: system-design/fraud-service
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -17,7 +17,6 @@ jobs:
           sudo curl -L "https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
           sudo chmod +x /usr/local/bin/docker-compose
       - name: Build services
-        working-directory: system-design/fraud-service/
         run: docker-compose build
       - name: Start server
         run: docker-compose up -d server
