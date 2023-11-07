@@ -1,0 +1,28 @@
+version: "3.5"
+
+services:
+  news-db:
+    env_file:
+      - .env
+    image: postgres:13
+    restart: unless-stopped
+    networks:
+      - proxy-net
+  news-api:
+    build: ./
+    depends_on:
+      - news-db
+    env_file:
+      - .env
+    links:
+      - news-db
+    ports:
+      - ${SERVER_PORT}:${SERVER_PORT}
+    restart: unless-stopped
+    networks:
+      - proxy-net
+
+networks:
+  proxy-net:
+    external:
+      name: hand-picked
