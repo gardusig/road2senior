@@ -1,0 +1,27 @@
+version: "3.5"
+
+services:
+  auth-db:
+    env_file:
+      - .env
+    image: postgres:13
+    restart: unless-stopped
+    networks:
+      - proxy-net
+  auth-api:
+    build: ./
+    depends_on:
+      - auth-db
+    env_file:
+      - .env
+    links:
+      - auth-db
+    ports:
+      - ${SERVER_PORT}:${SERVER_PORT}
+    restart: unless-stopped
+    networks:
+      - proxy-net
+
+networks:
+  proxy-net:
+    name: hand-picked

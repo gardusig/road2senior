@@ -1,0 +1,6 @@
+CREATE TABLE tb_operation (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(128) NOT NULL UNIQUE,
+    created_at TIMESTAMPTZ(6) NOT NULL,
+    updated_at TIMESTAMPTZ(6) NOT NULL
+);
