@@ -44,21 +44,56 @@ The STAR method is a structured way of answering behavioral interview questions.
 
 ### Entrepreneurial Success
 
-- While I was working remotely for a startup, I got offered an opportunity to purchase a not so organized nightclub/bar.
-- After some visits and evaluation through intuition, I found it was a promising investment.
-- There were two guys managing it before, like hosting events irregularly.
-- Since there were a niche group going there frequently, if I could increase the size of the group, it would become quite profitable.
-- I started by hiring a few people.
-- Got to hire a few service providers as well.
-- In a couple of weeks the entire place got a new visual touch due to renovation.
-- Got to learn what was required for it to work and tried to automate everything that was possible.
-- Every refrigerator must be full at all times, got to move them around the house until they found the right spot to be placed at.
-- Kept swapping team members up to a team that worked out
-- Used the Instagram account as the main company marketing propagator.
-- Got one account stolen, then grew another up to 5k subscribers again.
-- In around 3 months it was already working. In 6 and I didn't even needed to go there for it to work.
-- After too much unsolicited attraction, I decided to seel the company for around 1y of net income.
-- While it was funny, I took some vacation and got back to coding for a large company.
+#### Situation
+
+- Got to know about a potential opportunity to invest money, bar/nightclub
+  - Kinda cheap initial investment for the moment
+- It was already an odd place, but still required improvements
+  - Worked but not optimally
+- I wanted it to become an unique place at the city
+  - Something they never saw before
+
+#### Task
+
+- Refactor appearance
+- Find the first team members
+- Manage finances
+- Resolve government bureaucracy
+- Evaluate ways for easy maintenance
+- Discover different ways to use the remaining space
+
+#### Action
+
+- Find the most important person
+  - The manager
+- Make refactor happen
+  - Paint
+  - Remove walls
+  - Add walls
+  - Add forces against fire
+  - Decorate
+  - Final touches with art
+  - Moved things around
+- Deeply understand finances
+  - Otherwise, it does not make sense to hold up the company
+  - Given that profit margin was not the major goal, just crossing self maintenance was just enough
+- Play with art and colors
+  - Each ambient had a unique feeling
+    - Colors must resemble it
+    - Paintings as well
+
+#### Result
+
+- Profitable nightclub
+  - Between SDE1 and SDE2 compensation
+- Virtually working on automatic
+  - Had a few maintenance tasks with very low time consumption
+- Good enough fame for 1st attempt
+  - Crossed 5k followers after around 6 months at my hand
+- Sold for around 1 year of net income
+- Learned many remaining pieces for team management or so
+
+All of that while working at a Silicon Valley startup job :)
 
 ## Why have I left Orkes?
 
