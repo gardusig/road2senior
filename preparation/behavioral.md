@@ -16,44 +16,36 @@ The STAR method is a structured way of answering behavioral interview questions.
 
 - Add a title summarizing the story into an impactful message
   - Easy to remember and may catch interviewer attention
-    - Like a sensationalist news headline
+    - Do like a sensationalist news headline - bait the reader by curiosity
 - Evaluate consistency between stories
   - One must not invalidate another, they should complement each other
-    - Beware of writing style, may be easier to remember when following a pattern
     - Do like Sherlock Holmes - be consistent and methodical
 - People like numbers, why not make stories sound a bit more palpable?
   - Just add fucking details everywhere
-    - Awesome improvement you have made at service X... But, by how much percent?
-    - Astonishingly processing time reduction at service Y... By how much, hum?
-    - Do like Gabriela Prioli - seasoning with granular refined data and its source
+    - Do like Gabriela Prioli - seasoning with granular refined data
 - Remove unnecessary details
   - Still figuring out what is not recommended to speak at an interview
+    - Do like Saitama - one punch is just enough
 - Tailor each story towards a positive feeling by the end
-  - Do like He Man - conclude them with a lessons learned at the end
+  - Avoid being pessimistic, there's always a good side of things
+    - Do like He Man - conclude them with a lessons learned at the end
 
 ## From remote startup developer to nightclub owner
 
-### Leadership Principles
+### Leadership Principle
 
-- Hire and Develop the Best
 - Customer Obsession
-- Ownership
-- Invent and Simplify
-- Think Big
-- Bias for Action
 
-### Entrepreneurial Success
+### Situation
 
-#### Situation
-
-- Got to know about a potential opportunity to invest money, bar/nightclub
+- Got to know about a potential opportunity to invest money, a bar/nightclub
   - Kinda cheap initial investment for the moment
 - It was already an odd place, but still required improvements
   - Worked but not optimally
 - I wanted it to become an unique place at the city
   - Something they never saw before
 
-#### Task
+### Task
 
 - Refactor appearance
 - Find the first team members
@@ -61,8 +53,10 @@ The STAR method is a structured way of answering behavioral interview questions.
 - Resolve government bureaucracy
 - Evaluate ways for easy maintenance
 - Discover different ways to use the remaining space
+- All of that with the major goal of providing an unique customer experience
+  - As quickly as possible, I was supposedly going to travel soon
 
-#### Action
+### Action
 
 - Find the most important person
   - The manager
@@ -82,7 +76,7 @@ The STAR method is a structured way of answering behavioral interview questions.
     - Colors must resemble it
     - Paintings as well
 
-#### Result
+### Result
 
 - Profitable nightclub
   - Between SDE1 and SDE2 compensation
@@ -91,9 +85,97 @@ The STAR method is a structured way of answering behavioral interview questions.
 - Good enough fame for 1st attempt
   - Crossed 5k followers after around 6 months at my hand
 - Sold for around 1 year of net income
-- Learned many remaining pieces for team management or so
+  - Also learned a ton of stuff unlikely to be grasped by a standard programmer job
+- Already planning my next business
+  - Depends mostly at where I will be placed at
 
-All of that while working at a Silicon Valley startup job :)
+## How have I mastered the art of time management?
+
+### Leadership Principle
+
+- Bias for Action
+
+### Situation
+
+- Previously Amazon FBA in Brazil
+  - Stable job
+- Quit and joined remote startup in USA
+  - 1st time working with English only, specially with an Indian accent
+- Created a few stuff, most hard work had being done after a few months
+  - The knowledge started to become more natural
+- Considering life nearby a beach
+  - Paddled my way into an AWS job offer at Canada
+- By the time of saying goodbyes at my "hometown"
+  - Paperwork got quite slow
+- Got to receive an investment opportunity at a bar
+  - Kind of not that financial risk
+- It was more about all the effort that was required and potential to learn from
+  - Let's do it then, while at the startup job, of course
+
+### Task
+
+- Considering the current work as a "senior" engineer
+  - Working with 4~5 small pet projects by my own
+- Adding a company to my belt was going to reduce my available time
+  - So I should learn how to keep track of my time, otherwise neither are going to work out
+- I had to keep an eye at time and priorities basically
+  - How to optimize things and still get them accomplished?
+
+### Action
+
+- I got cocky with the new large purchase
+  - Started to remember my schedule at startup company and tried to fill in the spare time with as many activities I could
+- If I focused at making most things right at the 1st attempt
+  - Less time wasted at redoing them, debug also worsen happiness
+- The beginning was very tricky, as always
+  - Many overlaps of meetings and company issues
+- Like having to decide what to do
+  - Solve a company issue or join into a quick fix meeting?
+- As time went by, things started to become more natural
+  - I got better sense of when to schedule things
+- Also noticed that delegating was necessary
+  - People want money and are willing to help
+- Overcame my shyness of speaking in front of others
+  - Like doing a meeting with my manager inside an Uber, while walking on the street, even at some unexpected situations :)
+- Then got the best idea maybe
+  - Start merging unrelated things together
+- Wanted to refresh the mind after faced with a bug?
+  - Go do some gardening
+- It was not random
+  - Plants were being used to decorate the place
+- Got frustrated?
+  - Go paint a wall
+- New color schemes started to appear
+  - Also gave birth to ambient ideas
+- All of that was possible due to deciding to actually live at the company
+  - Not that healthy, but works quite well for a while
+- Also save quite a few money
+  - Otherwise, would had double expenses basically
+
+### Result
+
+- Learned that parallel work can work
+  - Like multithread, works pretty well with I/O tasks
+- With good time management, most tasks have a waiting time
+  - You can merge another one while waiting for it to get completed
+- If you organize well
+  - More things can get done within the same time window
+- Learned how to raise plants
+  - Still in progress work though
+- Learned how to decorate places
+  - Also in progress
+- Given that more people were coming to the place
+  - I think overall they liked it
+- Since I had to say many NOs
+  - Learned how to better argument
+- Not every task is worth doing instantly
+  - Understanding its requirements and necessity is crucial
+- Apart from a few personal life issues
+  - Worked pretty well for quite a while
+- Just need to keep an eye also at habits
+  - Avoid any potential high risk for health
+- We only live once
+  - That was surely worth trying out
 
 ## Why have I left Orkes?
 
