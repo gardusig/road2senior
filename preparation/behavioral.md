@@ -32,10 +32,6 @@ The STAR method is a structured way of answering behavioral interview questions.
 
 ## From remote startup developer to nightclub owner
 
-### Leadership Principle
-
-- Customer Obsession
-
 ### Situation
 
 - Got to know about a potential opportunity to invest money, a bar/nightclub
@@ -90,10 +86,6 @@ The STAR method is a structured way of answering behavioral interview questions.
   - Depends mostly at where I will be placed at
 
 ## How have I mastered the art of time management?
-
-### Leadership Principle
-
-- Bias for Action
 
 ### Situation
 
@@ -179,12 +171,6 @@ The STAR method is a structured way of answering behavioral interview questions.
 
 ## Why have I left Orkes?
 
-### Leadership Principles
-
-- Think Big
-- Bias for Action
-- Frugality
-
 ### Pursuit of a better suitable environment
 
 I was initially happy with the remote contract at the startup. The compensation was much higher than I would have received as a full-time employee in Brazil, and I had the freedom to work from anywhere. However, I soon realized that the company culture was not a good fit for me. They were looking for people who would follow a command-and-control management style, and I am more of a creative thinker who likes to challenge the status quo.
@@ -199,12 +185,6 @@ After the contract ended, I took some vacation after a long time without one. I 
 
 ## Why have I left Amazon to join a startup?
 
-#### Leadership Principles
-
-- Learn and Be Curious
-- Think Big
-- Frugality
-
 ### Desire for more challenging and fulfilling work
 
 I joined Amazon as a software engineer on the amazon.com.br fba team. I was excited about the opportunity to work for a large and innovative company, but I quickly realized that the role was not a good fit for me.
@@ -218,13 +198,6 @@ The new position paid me in USD and I had much lower taxes. I was also able to w
 Leaving Amazon was clearly the right choice. Even got an equivalent offer from AWS to relocate to Canada, but that's another disappointing story of many suboptimal decisions.
 
 ## How I upscaled Amazon FBA invoice services just enough?
-
-### Leadership Principles
-
-- Customer Obsession
-- Invent and Simplify
-- Insist on the Highest Standards
-- Bias for Action
 
 ### Ability to prepare a system for high-demand periods like Black Friday
 
@@ -244,12 +217,6 @@ We rounded up values to make sure we weren't being too pretentious and it's done
 
 ## How I enabled the largest client for Orkes by creating an SDK
 
-### Leadership Principles
-
-- Customer Obsession
-- Ownership
-- Learn and Be Curious
-
 ### Adaptability and initiative in learning new technologies to quickly create solutions
 
 - Twilio wanted to use the product, but not only asked but set a requirement - to have Go SDK
@@ -264,12 +231,6 @@ We rounded up values to make sure we weren't being too pretentious and it's done
 - People got happy with results and a new customer was being managed from then on
 
 ## How have I managed all SDKs while at Orkes?
-
-### Leadership Principles
-
-- Customer Obsession
-- Ownership
-- Insist on the Highest Standards
 
 ### Commitment to maintain and improve multiple software while automating as much as possible
 
@@ -287,11 +248,6 @@ We rounded up values to make sure we weren't being too pretentious and it's done
   - Fixed them overnight
 
 ## How have I dealt with manager disagreement?
-
-### Leadership Principles:
-
-- Customer Obsession
-- Invent and Simplify
 
 ### Make informed decisions and communicate effectively
 
