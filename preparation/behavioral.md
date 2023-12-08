@@ -16,57 +16,160 @@ The STAR method is a structured way of answering behavioral interview questions.
 
 - Add a title summarizing the story into an impactful message
   - Easy to remember and may catch interviewer attention
-    - Like a sensationalist news headline
+    - Do like a sensationalist news headline - bait the reader by curiosity
 - Evaluate consistency between stories
   - One must not invalidate another, they should complement each other
-    - Beware of writing style, may be easier to remember when following a pattern
     - Do like Sherlock Holmes - be consistent and methodical
 - People like numbers, why not make stories sound a bit more palpable?
   - Just add fucking details everywhere
-    - Awesome improvement you have made at service X... But, by how much percent?
-    - Astonishingly processing time reduction at service Y... By how much, hum?
-    - Do like Gabriela Prioli - seasoning with granular refined data and its source
+    - Do like Gabriela Prioli - seasoning with granular refined data
 - Remove unnecessary details
   - Still figuring out what is not recommended to speak at an interview
+    - Do like Saitama - one punch is just enough
 - Tailor each story towards a positive feeling by the end
-  - Do like He Man - conclude them with a lessons learned at the end
+  - Avoid being pessimistic, there's always a good side of things
+    - Do like He Man - conclude them with a lessons learned at the end
 
 ## From remote startup developer to nightclub owner
 
-### Leadership Principles
+### Situation
 
-- Hire and Develop the Best
-- Customer Obsession
-- Ownership
-- Invent and Simplify
-- Think Big
-- Bias for Action
+- Got to know about a potential opportunity to invest money, a bar/nightclub
+  - Kinda cheap initial investment for the moment
+- It was already an odd place, but still required improvements
+  - Worked but not optimally
+- I wanted it to become an unique place at the city
+  - Something they never saw before
 
-### Entrepreneurial Success
+### Task
 
-- While I was working remotely for a startup, I got offered an opportunity to purchase a not so organized nightclub/bar.
-- After some visits and evaluation through intuition, I found it was a promising investment.
-- There were two guys managing it before, like hosting events irregularly.
-- Since there were a niche group going there frequently, if I could increase the size of the group, it would become quite profitable.
-- I started by hiring a few people.
-- Got to hire a few service providers as well.
-- In a couple of weeks the entire place got a new visual touch due to renovation.
-- Got to learn what was required for it to work and tried to automate everything that was possible.
-- Every refrigerator must be full at all times, got to move them around the house until they found the right spot to be placed at.
-- Kept swapping team members up to a team that worked out
-- Used the Instagram account as the main company marketing propagator.
-- Got one account stolen, then grew another up to 5k subscribers again.
-- In around 3 months it was already working. In 6 and I didn't even needed to go there for it to work.
-- After too much unsolicited attraction, I decided to seel the company for around 1y of net income.
-- While it was funny, I took some vacation and got back to coding for a large company.
+- Refactor appearance
+- Find the first team members
+- Manage finances
+- Resolve government bureaucracy
+- Evaluate ways for easy maintenance
+- Discover different ways to use the remaining space
+- All of that with the major goal of providing an unique customer experience
+  - As quickly as possible, I was supposedly going to travel soon
+
+### Action
+
+- Find the most important person
+  - The manager
+- Make refactor happen
+  - Paint
+  - Remove walls
+  - Add walls
+  - Add forces against fire
+  - Decorate
+  - Final touches with art
+  - Moved things around
+- Deeply understand finances
+  - Otherwise, it does not make sense to hold up the company
+  - Given that profit margin was not the major goal, just crossing self maintenance was just enough
+- Play with art and colors
+  - Each ambient had a unique feeling
+    - Colors must resemble it
+    - Paintings as well
+
+### Result
+
+- Profitable nightclub
+  - Between SDE1 and SDE2 compensation
+- Virtually working on automatic
+  - Had a few maintenance tasks with very low time consumption
+- Good enough fame for 1st attempt
+  - Crossed 5k followers after around 6 months at my hand
+- Sold for around 1 year of net income
+  - Also learned a ton of stuff unlikely to be grasped by a standard programmer job
+- Already planning my next business
+  - Depends mostly at where I will be placed at
+
+## How have I mastered the art of time management?
+
+### Situation
+
+- Previously Amazon FBA in Brazil
+  - Stable job
+- Quit and joined remote startup in USA
+  - 1st time working with English only, specially with an Indian accent
+- Created a few stuff, most hard work had being done after a few months
+  - The knowledge started to become more natural
+- Considering life nearby a beach
+  - Paddled my way into an AWS job offer at Canada
+- By the time of saying goodbyes at my "hometown"
+  - Paperwork got quite slow
+- Got to receive an investment opportunity at a bar
+  - Kind of not that financial risk
+- It was more about all the effort that was required and potential to learn from
+  - Let's do it then, while at the startup job, of course
+
+### Task
+
+- Considering the current work as a "senior" engineer
+  - Working with 4~5 small pet projects by my own
+- Adding a company to my belt was going to reduce my available time
+  - So I should learn how to keep track of my time, otherwise neither are going to work out
+- I had to keep an eye at time and priorities basically
+  - How to optimize things and still get them accomplished?
+
+### Action
+
+- I got cocky with the new large purchase
+  - Started to remember my schedule at startup company and tried to fill in the spare time with as many activities I could
+- If I focused at making most things right at the 1st attempt
+  - Less time wasted at redoing them, debug also worsen happiness
+- The beginning was very tricky, as always
+  - Many overlaps of meetings and company issues
+- Like having to decide what to do
+  - Solve a company issue or join into a quick fix meeting?
+- As time went by, things started to become more natural
+  - I got better sense of when to schedule things
+- Also noticed that delegating was necessary
+  - People want money and are willing to help
+- Overcame my shyness of speaking in front of others
+  - Like doing a meeting with my manager inside an Uber, while walking on the street, even at some unexpected situations :)
+- Then got the best idea maybe
+  - Start merging unrelated things together
+- Wanted to refresh the mind after faced with a bug?
+  - Go do some gardening
+- It was not random
+  - Plants were being used to decorate the place
+- Got frustrated?
+  - Go paint a wall
+- New color schemes started to appear
+  - Also gave birth to ambient ideas
+- All of that was possible due to deciding to actually live at the company
+  - Not that healthy, but works quite well for a while
+- Also save quite a few money
+  - Otherwise, would had double expenses basically
+
+### Result
+
+- Learned that parallel work can work
+  - Like multithread, works pretty well with I/O tasks
+- With good time management, most tasks have a waiting time
+  - You can merge another one while waiting for it to get completed
+- If you organize well
+  - More things can get done within the same time window
+- Learned how to raise plants
+  - Still in progress work though
+- Learned how to decorate places
+  - Also in progress
+- Given that more people were coming to the place
+  - I think overall they liked it
+- Since I had to say many NOs
+  - Learned how to better argument
+- Not every task is worth doing instantly
+  - Understanding its requirements and necessity is crucial
+- Apart from a few personal life issues
+  - Worked pretty well for quite a while
+- Just need to keep an eye also at habits
+  - Avoid any potential high risk for health
+- We only live once
+  - That was surely worth trying out
 
 ## Why have I left Orkes?
-
-### Leadership Principles
-
-- Think Big
-- Bias for Action
-- Frugality
 
 ### Pursuit of a better suitable environment
 
@@ -82,12 +185,6 @@ After the contract ended, I took some vacation after a long time without one. I 
 
 ## Why have I left Amazon to join a startup?
 
-#### Leadership Principles
-
-- Learn and Be Curious
-- Think Big
-- Frugality
-
 ### Desire for more challenging and fulfilling work
 
 I joined Amazon as a software engineer on the amazon.com.br fba team. I was excited about the opportunity to work for a large and innovative company, but I quickly realized that the role was not a good fit for me.
@@ -101,13 +198,6 @@ The new position paid me in USD and I had much lower taxes. I was also able to w
 Leaving Amazon was clearly the right choice. Even got an equivalent offer from AWS to relocate to Canada, but that's another disappointing story of many suboptimal decisions.
 
 ## How I upscaled Amazon FBA invoice services just enough?
-
-### Leadership Principles
-
-- Customer Obsession
-- Invent and Simplify
-- Insist on the Highest Standards
-- Bias for Action
 
 ### Ability to prepare a system for high-demand periods like Black Friday
 
@@ -127,12 +217,6 @@ We rounded up values to make sure we weren't being too pretentious and it's done
 
 ## How I enabled the largest client for Orkes by creating an SDK
 
-### Leadership Principles
-
-- Customer Obsession
-- Ownership
-- Learn and Be Curious
-
 ### Adaptability and initiative in learning new technologies to quickly create solutions
 
 - Twilio wanted to use the product, but not only asked but set a requirement - to have Go SDK
@@ -147,12 +231,6 @@ We rounded up values to make sure we weren't being too pretentious and it's done
 - People got happy with results and a new customer was being managed from then on
 
 ## How have I managed all SDKs while at Orkes?
-
-### Leadership Principles
-
-- Customer Obsession
-- Ownership
-- Insist on the Highest Standards
 
 ### Commitment to maintain and improve multiple software while automating as much as possible
 
@@ -170,11 +248,6 @@ We rounded up values to make sure we weren't being too pretentious and it's done
   - Fixed them overnight
 
 ## How have I dealt with manager disagreement?
-
-### Leadership Principles:
-
-- Customer Obsession
-- Invent and Simplify
 
 ### Make informed decisions and communicate effectively
 
