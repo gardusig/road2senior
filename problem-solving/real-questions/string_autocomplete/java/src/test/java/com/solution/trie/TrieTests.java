@@ -93,8 +93,8 @@ public class TrieTests {
                 "hiren",
                 "hirer",
                 "hirers",
-                "hires"
-        );
+                "hires");
         assertEquals(trie.getWordsWithPrefixMatch("hire"), HIRE_ME);
+        br.close();
     }
 }
