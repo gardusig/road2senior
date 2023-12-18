@@ -1,4 +1,4 @@
-package aoc.year2023.solution;
+package aoc.solution;
 
 import java.util.Map;
 import java.util.HashMap;

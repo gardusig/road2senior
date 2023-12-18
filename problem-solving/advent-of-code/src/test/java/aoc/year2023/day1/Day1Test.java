@@ -1,9 +1,11 @@
 package aoc.year2023.day1;
 
-import aoc.year2023.util.InputOutputPair;
 import java.util.List;
-import org.junit.Test;
-import static org.junit.Assert.assertEquals;
+import org.junit.jupiter.api.Test;
+
+import aoc.util.InputOutputPair;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class Day1Test {
         private Day1 solution;

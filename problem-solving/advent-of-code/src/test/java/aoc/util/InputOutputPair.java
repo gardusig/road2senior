@@ -1,4 +1,4 @@
-package aoc.year2023.util;
+package aoc.util;
 
 public class InputOutputPair<A, B> {
     private A input;

@@ -1,18 +1,17 @@
 package aoc.year2023.day1;
 
-import aoc.year2023.solution.Solution;
+import aoc.solution.Solution;
 import java.util.List;
+import java.util.stream.Stream;
 
 public class Day1 extends Solution<List<String>, Long> {
-    @Override
-    public String getInputUrl() {
-        return "https://adventofcode.com/2023/day/1/input";
+    public Day1() {
+        super(2023, 1);
     }
 
     @Override
-    public List<String> getInputData() {
-        var inputLines = this.getInputLines();
-        return inputLines;
+    public List<String> getParsedInputData(Stream<String> rawInputData) {
+        return rawInputData.toList();
     }
 
     @Override
