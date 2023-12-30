@@ -1,0 +1,33 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+ext {
+    log4jVersion = '2.14.1'
+    slf4jVersion = '1.7.32'
+    junitVersion = '5.7.2'
+    okHttpVersion = '4.12.0'
+}
+
+dependencies {
+    implementation "org.apache.logging.log4j:log4j-core:${log4jVersion}"
+    implementation "org.slf4j:slf4j-api:${slf4jVersion}"
+    implementation "com.squareup.okhttp3:okhttp:${okHttpVersion}"
+    implementation "com.squareup.okhttp3:mockwebserver:${okHttpVersion}"
+
+    testImplementation "org.junit.jupiter:junit-jupiter-api:${junitVersion}"
+    testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:${junitVersion}"
+}
+
+application {
+    mainClassName = 'aoc.main.Main'
+}
+
+test {
+    useJUnit()
+}
