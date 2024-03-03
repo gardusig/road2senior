@@ -21,10 +21,8 @@
 - [Fraud Service](https://github.com/gardusig/fraud-service)
 - [nodeNestJS](https://github.com/gardusig/nodeNestJS)
 - Pandora
-  - [PandoraService](https://github.com/gardusig/pandoraservice)
-    - Server
-  - [NumberGuesser](https://github.com/gardusig/numberguesser)
-    - Client
+  - [Server](https://github.com/gardusig/pandoraservice)
+  - [Client](https://github.com/gardusig/numberguesser)
 - FIX Service
   - [Main project](https://github.com/gardusig/fix_service)
   - [Client](https://github.com/gardusig/clientfix)
