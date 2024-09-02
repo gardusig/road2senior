@@ -9,13 +9,6 @@
 - [Ask at the end](./preparation/README.md#ask-at-the-end)
 - [After the interview](./preparation/README.md#after-the-interview)
 
-## [Problem Solving](./problem-solving/)
-
-- [AdventOfCode](https://github.com/gardusig/advent-of-code)
-- [Meta Hacker Cup](https://github.com/gardusig/problem-solving/tree/main/hacker_cup)
-- [Meta Careers coding puzzles](https://github.com/gardusig/problem-solving/tree/main/meta_coding_puzzles)
-- [Questions from real interviews](https://github.com/gardusig/problem-solving/tree/main/real-questions)
-
 ## [System Design](./system-design/)
 
 - [Fraud Service](https://github.com/gardusig/fraud-service)
