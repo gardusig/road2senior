@@ -1,87 +1,61 @@
-- Ask clarifying questions
-  - Essential for making sure that you understand the problem and the expected output
-  - Good way to check if you understood the problem
-  - Be honest if you already saw the question before
-  - Don't be afraid to ask "dumb" questions
-    - The dumbest the better, you must be sure of each relevant data
-    - The interviewer would rather be asked a question than you get the wrong answer
-  - Use examples whenever possible, they will be useful when testing
-    - Start a few brain threads to find corner cases in the meantime
-- Try discovering the input/output `size` and input/output `limit range`
-  - Quite helpful for determining the time and space complexity of your solution
-    - if the input size is very large
-      - you might want to use a more efficient algorithm or data structure
-  - `size` helps you with time and space complexity, like
-    - Length of an array
-    - Size of the answer
-      - Uncommon, but possible to be asked about all permutations of an array for example
-  - `limit range` helps you to tailor your thoughts towards an observational solution
-    - Most problems might have a very simple and creative solution
-    - Sometimes you can make an observation connecting an input/output condition with the expected answer, like
-      - Get the greatest range multiplication from an array with non-negative integers
-        - Sounds like a more complex algorithm
-        - Observation: _Zeroes never help at multiplication_
-        - So... If you ignore them?
-          - Split the array into segments without zeroes
-          - Just return the greatest one among them :)
-      - Get the winner of a tennis match
-        - Problem explains many rules of tennis, sounds complex
-        - Observation: _The winner always makes the last turn point_
-        - So... If you ignore the others?
-          - Just return the last one :)
-- Iterate through some examples...
-  - Start thinking about potential solutions
-    - Be creative
-      - There is often more than one way to solve a coding problem
-        - Don't be afraid to think outside the box
-  - Find corner cases and edge cases that might not be obvious at first
-    - Don't underestimate the problem
-  - Small examples for easy and quick test
-  - Large examples for scalability test
-  - Edge cases that test the robustness of your solution
-- By this point you should have understood the question and all of its details
-  - Trade offs to be considered when choosing a solution (from most important to less relevant)
-    - Correctness
-    - Time complexity
-    - Space complexity
-    - Ease of implementation
-    - Code readability
-  - Think about distinct solutions
-    - Start by the simplest naive iterative solution and its expected complexity
-    - Now its time to understand repeated operations
-      - Algorithms and Data structures are useful here
-    - There is no "best" solution for every problem
-      - The best solution will depend on the specific constraints of the problem
-    - Think about different possible solutions
-      - Use time and space complexity to compare between them
-        - Data structures
-          - Size (size complexity)
-            - Segment trees consumes more than the input size
-          - Query (time complexity)
-          - Update (time complexity)
-        - Algorithms
-          - Runtime (size complexity)
-            - Hardly less than input size complexity
-              - It's tacky to not at least pass by each value once :)
-            - It probably has a well defined worst case complexity
-          - Memory (size complexity)
-            - Some algorithms might use:
-              - more memory
-                - like dynamic programming
-              - others none
-                - like returning the greatest value
-- Write good quality code
-  - readable, efficient, and well-tested
-  - use comments to explain your code
-    - or invest into pretty well written variable and method names
-      - it's faster to write an almost good comment than finding the best name btw
-  - easy to understand for both you and the interviewer
-    - use proper indentation and spacing
-- Test the code
-  - Test your code against a variety of input/output scenarios
-    - Passing by all corner cases and edge cases is probably enough
-  - If confused, running it against small input/output scenarios may help
-    - Explain what happens over each execution step
-      - Actually creating the variables and explaining how their value changes is just fine :)
-- Breathe and get back to the problem
-  - There is no need for hurry, you've got this
+# Key steps for solving coding problems:
+
+## Practice
+
+I recommend using LeetCode, but smartly (by filtering which questions and not randomly solving them):
+
+- https://neetcode.io/practice
+- https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions
+
+## Ask clarifying questions:
+
+- Ensure that you fully understand the problem and the expected output.
+- Verify your understanding by asking questions and repeating back what you understand.
+- Be honest if you have seen the problem before.
+- Do not hesitate to ask any "dumb" questions; the interviewer prefers that you ask rather than make incorrect assumptions.
+- Use examples to illustrate and clarify the problem; these can be useful later when testing.
+  - Start thinking about potential corner cases.
+
+## Understand the input and output characteristics:
+
+- Determine the size and limit range of inputs and outputs.
+  - This helps you estimate time and space complexity.
+  - For large inputs, you may need a more efficient algorithm or data structure.
+- Understand the significance of size, such as:
+  - Length of an array or the size of the expected answer.
+- Use limit ranges to identify patterns or constraints that might suggest a simpler solution.
+
+## Explore examples and edge cases:
+
+- Begin by considering small, simple examples.
+  - Use these to identify potential solutions and verify their correctness.
+- Consider large examples to evaluate scalability.
+- Identify and test edge cases to assess the robustness of your solution.
+
+## Evaluate potential solutions:
+
+- Consider the trade-offs between different solutions, prioritizing:
+  - Correctness.
+  - Time complexity.
+  - Space complexity.
+  - Ease of implementation.
+  - Code readability.
+- Start with a simple, naive solution and evaluate its complexity.
+  - Identify repeated operations and think about data structures or algorithms that can optimize them.
+- Compare multiple possible solutions using time and space complexity to determine which is the most suitable based on the problem's constraints.
+
+## Write clean, readable code:
+
+- Write code that is easy to read and understand.
+- Use meaningful variable and function names, or provide comments if necessary.
+- Maintain proper indentation and spacing to enhance readability.
+
+## Test thoroughly:
+- Test your code with a variety of inputs, including:
+  - Small inputs for quick checks.
+  - Edge cases to ensure robustness.
+- Walk through your code step-by-step for different scenarios, explaining what happens at each stage.
+
+## Stay calm and focused:
+- Remember to breathe and maintain composure.
+- Don't rush; take your time to think through the problem and your solution.

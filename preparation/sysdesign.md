@@ -1,69 +1,81 @@
-I have defined some kind of algorithm, still ongoing process. Let's use Twitter as an example:
+# Key Steps for System Design Interview:
 
-1. Understand the system by asking the dumbest questions until you can answer the question below
-   - What is actually the goal? As a user, I would like to...
-     - Login
-     - Post a brilliant 256 character thought
-     - Read other people's brilliant 256 character thought(s)
-     - Subscribe other people
-     - Be subscribed by other people
-     - Read from a feed
-     - Receive notifications
-1. Translate previous questions into real data, which is like a bunch of databases
-   - User db should have like
-     - Id (primary key if sql)
-     - Name
-     - Password
-     - Favorite color
-   - Tweet db should have like
-     - Id (primary key if sql)
-     - UserId (foreign key if sql)
-     - Brilliant 256 character thoughts
-   - Subscription db
-     - TODO
-1. Understand the forecasts by asking more dumb questions (try guessing a few answers to keep the conversation fluid)
-   - How many users?
-   - How many requests per day?
-   - Write/read ratio?
-   - Budget/Timeline (startups does not allow to evaluate many alternatives)
-   - Integrations
-     - Auth layer/system
-     - Metrics collection
-     - Log
-   - Preferences:
-     - Data formats (monoliths are easier to handle, better consistency)
-       - protocol buffers
-       - json
-       - xml
-       - smoke signal
-     - Communication (monoliths are easier to handle, better consistency)
-       - HTTP
-       - gRPC
-   - Availability. What is more important, consistency or speed?
-     - Considering medical and bank stuff, consistency is very important
-     - Brilliant 256 character thoughts? Nah, as quick as possible, no one will die if one disappear
-   - What are the corner cases?
-     - Famous people should be very interesting to have astronomically more subscribers than avg
-     - Creative people write a ton of brilliant 256 character thoughts every day
-     - Curious people read a ton of brilliant 256 character thoughts every day
-1. Connect the dots. This is the funniest part, you should have all the required data by this time.
-   - Given the defined databases at 2, you know approximately the cost of a single piece of data
-   - Given the estimations at 3, you know approximately how many pieces of data you must process
-   - If you had already created a system
-     - There's probably an average number of pieces of data a single system can handle
-     - Then it's basic math to discover the amount of systems you need to scale in order to fulfill your requests
-   - Otherwise, well this is actually what you are supposed to do at this interview. Wish someone had told me that earlier
-1. Design anything that satisfies the goal defined at 1 and is manageable with 4
-   - Yeah, creativity must be flowing like a hydropower plant at a waterfall
-1. Hm, let's criticize a bit
-   - Security: How will you protect your users' data?
-   - Scalability: How will you handle increasing traffic?
-   - Reliability: How will you ensure that your system is always up and running?
-     - What if a service went down?
-     - What if a request fail?
-     - What if a database gets corrupted?
-   - Maintainability: How easy will it be to make changes to your system in the future?
-   - Performance: How fast will your system be? How will you measure and improve performance?
-   - Cost: How much will it cost to build and maintain your system?
-   - User experience: How easy will it be for users to use your system?
-   - Extensibility: How easy will it be to add new features to your system in the future?
+## Understand the Problem:
+
+- Begin by asking basic questions to clarify the system's purpose until you can clearly define the core functionality.
+  - What are the primary goals of the system? For example, as a user, I would like to:
+    - Log in.
+    - Post a short message (e.g., a 256-character thought).
+    - Read posts from other users.
+    - Subscribe to other users.
+    - Manage my followers.
+    - Read from a personalized feed.
+    - Receive notifications.
+- Translate these high-level goals into functional requirements.
+
+## Define the Core Data Model:
+
+- Convert the identified functionalities into a structured data model, which typically involves several databases:
+  - **User Database:**
+    - `id` (primary key)
+    - `name`
+    - `password`
+    - `email`
+    - `preferences` (e.g., favorite color)
+  - **Tweet Database:**
+    - `id` (primary key)
+    - `user_id` (foreign key)
+    - `content` (e.g., 256-character message)
+    - `timestamp`
+  - **Subscription Database:**
+    - `id` (primary key)
+    - `subscriber_id` (foreign key referencing user)
+    - `subscribed_to_id` (foreign key referencing user)
+
+## Estimate the Scale and Performance Requirements:
+
+- Understand the potential scale of the system by considering key questions:
+  - How many users are expected initially, and what is the potential growth rate?
+  - What is the expected number of requests per day, and how does it break down between reads and writes?
+  - What is the write-to-read ratio?
+  - Are there any budget or timeline constraints that will impact system design?
+  - What integrations or external systems will be involved (e.g., authentication, metrics collection, logging)?
+  - What are the preferred data formats (e.g., Protocol Buffers, JSON) and communication protocols (e.g., HTTP, gRPC)?
+- Determine the required level of availability, consistency, and performance:
+  - What are the priorities between consistency and speed? For example:
+    - In critical applications (e.g., banking, medical), consistency is paramount.
+    - In less critical applications (e.g., social media posts), speed might be prioritized over consistency.
+  - Identify potential corner cases:
+    - Popular users (e.g., celebrities) may have a much higher number of followers.
+    - High-frequency users may post or read a large volume of content daily.
+
+## Analyze the System Requirements and Connect the Dots:
+
+  - Calculate the cost of storing and processing a single piece of data based on the defined data model.
+  - Estimate the total volume of data to be handled based on the forecasted user base and activity levels.
+  - Use these estimates to determine the capacity of individual components (e.g., servers, databases) and the number of components required to handle the expected load.
+  - If past systems or benchmarks are available, use them to guide your capacity planning.
+  - If no prior data is available, apply standard scaling techniques and industry best practices.
+
+## Create a High-Level Design:
+
+- Develop a system architecture that satisfies the requirements defined in the previous steps. This should include:
+  - The core components of the system (e.g., front-end, back-end, databases, caching layers, messaging queues).
+  - The interactions between components.
+  - Data flow and storage strategies.
+  - Load balancing and scaling strategies.
+- Ensure that the design addresses both functional and non-functional requirements.
+
+## Critically Evaluate the Design:
+
+  - **Security:** How will you protect user data and ensure the system is secure?
+  - **Scalability:** How will the system handle increased traffic or a growing user base?
+  - **Reliability:** How will you ensure the system remains operational? Consider scenarios like:
+    - A service failure.
+    - A failed request.
+    - Database corruption or downtime.
+  - **Maintainability:** How easily can changes be made to the system over time?
+  - **Performance:** How fast is the system? How will you measure and improve performance?
+  - **Cost:** What are the costs of building and maintaining the system?
+  - **User Experience:** How intuitive and accessible is the system for users?
+  - **Extensibility:** How easy is it to add new features or adapt the system to changing requirements in the future?

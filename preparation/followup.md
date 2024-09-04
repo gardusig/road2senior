@@ -1,9 +1,0 @@
-- What are the biggest challenges that the team is facing right now?
-- What are the opportunities for growth and development?
-- What is the company culture like?
-- Why is this position open? Who is expected to fill it?
-- How the routine of good performers looks like?
-- On-call
-  - What is the rotation period? (i.e. Every two weeks)
-  - How much time is expected to spend away from standard tasks?
-  - Is the team looking for avoiding more tickets?
