@@ -1,22 +1,14 @@
 # road2senior
 
-## [Interview Preparation](./preparation/README.md)
+Welcome to **road2senior**! This repository serves as a comprehensive guide and resource collection for advancing to a senior software engineer position. Here, you'll find structured materials for interview preparation, my professional resume, and detailed documentation of various systems I have designed.
 
-- [General guidance](./preparation/README.md#general-guidance)
-- [Coding interview](./preparation/README.md#coding-interview)
-- [Behavioral interview](./preparation/README.md#behavioral-interview)
-- [System design interview](./preparation/README.md#system-design-interview)
-- [Ask at the end](./preparation/README.md#ask-at-the-end)
-- [After the interview](./preparation/README.md#after-the-interview)
+## Contents
 
-## [System Design](./system-design/)
+- **[Interview Preparation](./preparation/README.md):** Strategies, tips, and resources to help you ace different types of interviews, including coding, behavioral, and system design.
+- **[Resume](./resume/resume.pdf):** My professional resume, showcasing my experience, skills, and achievements.
+  
+## System Design
 
-- [Fraud Service](https://github.com/gardusig/fraud-service)
-- [nodeNestJS](https://github.com/gardusig/nodeNestJS)
-- Pandora
-  - [Server](https://github.com/gardusig/pandoraservice)
-  - [Client](https://github.com/gardusig/numberguesser)
-- FIX Service
-  - [Main project](https://github.com/gardusig/fix_service)
-  - [Client](https://github.com/gardusig/clientfix)
-  - [Server](https://github.com/gardusig/serverfix)
+Explore the systems I've created to demonstrate my design skills and approach to solving complex problems:
+
+- **[Journaling](./system-design/journaling.md):** A Google Apps Script-based system to automate the creation and management of journaling documents in Google Drive.
