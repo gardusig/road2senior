@@ -1,6 +1,6 @@
 # road2senior
 
-Welcome to **road2senior**! This repository serves as a comprehensive guide and resource collection for advancing to a senior software engineer position. Here, you'll find structured materials for interview preparation, my professional resume, and detailed documentation of various systems I have designed.
+This repository serves as a comprehensive guide and resource collection for advancing to a senior software engineer position. Here, you'll find structured materials for interview preparation, my professional resume, and detailed documentation of various systems I have designed.
 
 ## Contents
 
