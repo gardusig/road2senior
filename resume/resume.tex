@@ -1,0 +1,87 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[a4paper,margin=0.66in]{geometry}
+\usepackage{enumitem}
+\usepackage{roboto}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{parskip}
+\linespread{0.9}
+\pagestyle{empty}
+
+% Define title format
+\titleformat{\section}{\Large\bfseries}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{2em}{1em}
+
+% Set font family
+\renewcommand{\familydefault}{\sfdefault}
+
+% Reduce space between list items
+\setlist[itemize]{itemsep=0pt, topsep=0pt}
+
+% Begin document
+\begin{document}
+
+% Name and contact information
+\begin{center}
+    {\LARGE \textbf{Gustavo Gardusi}}\\
+    \vspace{1em}
+    \begin{minipage}[t]{0.5\textwidth}
+        \flushleft
+        \href{mailto:gustavo.gardusi@gmail.com}{gustavo.gardusi@gmail.com}
+    \end{minipage}%
+    \begin{minipage}[t]{0.5\textwidth}
+        \flushright
+        \href{https://github.com/gardusig}{github.com/gardusig}
+    \end{minipage}
+\end{center}
+
+% Work Experience
+\section*{Work Experience}
+
+\textbf{Orkes} \hfill Cupertino, California, United States (remote from Brazil) \\
+Senior Software Engineer\hfill \textit{January 2022 - July 2023}
+\begin{itemize}
+    \item Led the initiative for polyglot clients by creating an open-source collection of projects enabling users to scale up multiple Netflix Conductor workflow task workers concurrently. Designed a synchronous workflow execution and resolved message queue acknowledgment issues on batch requests.
+    \item Optimized resource allocation by making batch requests at clients while managing active threads, reducing workflow processing time by nearly 20\%. Quickly identified and fixed compatibility issues to ensure project continuity, earning the trust of the largest company customer.
+    \item Established a foundation for all end-to-end tests and increased the test coverage to nearly 100\% of relevant code. Pioneered the creation of Python and Go SDKs and contributed 40,000 lines of code to the Java SDK. Co-creator of C\# and JS SDKs. Previously, only Java was fully supported.
+\end{itemize}
+
+\textbf{Amazon} \hfill São Paulo, São Paulo, Brazil \\
+Software Development Engineer II \hfill \textit{April 2021 - January 2022}
+\begin{itemize}
+    \item Improved the resilience score of two critical Java services responsible for invoice generation by adding a new CI/CD approval step, which fails if minimum transaction rates or maximum latency requirements are not met.
+    \item Expanded the Fulfillment By Amazon program in Brazil by managing diverse invoice expiration and cancellation rules, enabling sellers from multiple states.
+    \item Leveraged historical metrics data to calculate an average distribution of requests and identify the expected load a single host could handle, ensuring adequate scaling and avoiding overloads or unnecessary costs during Black Friday 2021.
+\end{itemize}
+
+\textbf{Beyond} \hfill São Paulo, São Paulo, Brazil \\
+Software Engineer \hfill \textit{August 2019 - April 2021}
+\begin{itemize}
+    \item Spearheaded the development of a high-frequency trading web application certified by B3, using C++ and WebSocket for communication, implementing an efficient order management system using the Financial Information eXchange protocol.
+    \item Created numerous APIs in Java using Spring Boot to handle stock market data, complemented by Python scripts for data parsing and filtering, resulting in a trading strategy simulator with 90\% accuracy.
+\end{itemize}
+
+\textbf{Algar Telecom} \hfill Uberlândia, Minas Gerais, Brazil \\
+Software Engineer \hfill \textit{September 2017 - August 2019}
+\begin{itemize}
+    \item Developed distributed applications in Python to collect data from 300 routers and configure them in real-time, storing data in databases linked to Metabase for generating dashboards and reports.
+\end{itemize}
+
+% Awards
+\section*{Awards (Competitive Programming)}
+\begin{itemize}
+    \item \textbf{Meta HackerCup:} Earned 3 consecutive T-shirts, awarded to the top 2,000 participants. Best rank: ~1,250th (Top 5\% globally).
+    \item \textbf{Codeforces/CodeChef:} Achieved First Division status on both platforms, placing in the top 10\% among thousands of users.
+    \item \textbf{ICPC Latin America Finals:} Competed in 4 regional finals, consistently ranking within the top 20 teams. Best rank: 16th out of 1,000 teams.
+\end{itemize}
+
+% Academic Background
+\section*{Academic Background}
+
+\textbf{Federal University of Uberlandia (UFU)} \hfill Uberlândia, Minas Gerais, Brazil \\
+Computer Science \hfill \textit{January 2014 - December 2018}
+\begin{itemize}
+    \item Completed over 60\% of the Computer Science full course curriculum, emphasizing competitive programming.
+\end{itemize}
+
+\end{document}
