@@ -1,5 +1,3 @@
-# Key steps for solving coding problems:
-
 ## Practice
 
 I recommend using LeetCode, but smartly (by filtering which questions and not randomly solving them):

@@ -34,18 +34,18 @@
 
 This interview generally takes up to an hour, and you are expected to solve one or more problems using algorithms and data structures.
 
-To achieve the best results, aim to communicate your thought process clearly. Your code should represent a reasonable solution and be easy to read, allowing the interviewer to understand why each part of your solution exists and how it works. [Check out more details here](./coding.md).
+To achieve the best results, aim to communicate your thought process clearly. Your code should represent a reasonable solution and be easy to read, allowing the interviewer to understand why each part of your solution exists and how it works. [Check out more details here](./preparation/coding.md).
 
 ## Behavioral Interview
 
 This interview generally takes up to an hour, and you are expected to cover a few of your past experiences.
 
-The interviewer wants to understand your thought process in decision-making under different situations. The key is not to feel ashamed of mistakes; they are quite useful when you have learned a lesson. The more distinct mistakes you make, the better you tend to become. [Check out more details here](./behavioral.md).
+The interviewer wants to understand your thought process in decision-making under different situations. The key is not to feel ashamed of mistakes; they are quite useful when you have learned a lesson. The more distinct mistakes you make, the better you tend to become. [Check out more details here](./preparation/behavioral.md).
 
 ## System Design Interview
 
-This interview generally takes up to an hour, and you are expected to draw a few things that can be interpreted as a computer system. It does not have to be perfect; otherwise, you would be eligible to replace a bunch of people. [Check out more details here](./sysdesign.md).
+This interview generally takes up to an hour, and you are expected to draw a few things that can be interpreted as a computer system. It does not have to be perfect; otherwise, you would be eligible to replace a bunch of people. [Check out more details here](./preparation/system-design.md).
 
 ## Ask at the End
 
-By the end of each interview, you are expected to have around 5 minutes to ask a few questions to the interviewer. It's an opportunity to clarify if you actually like the company and to show interest through an unexpected curiosity. [Check out more details here](./ask-at-the-end.md).
+By the end of each interview, you are expected to have around 5 minutes to ask a few questions to the interviewer. It's an opportunity to clarify if you actually like the company and to show interest through an unexpected curiosity. [Check out more details here](./preparation/ask-at-the-end.md).

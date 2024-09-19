@@ -1,7 +1,3 @@
-# Summary
-
-This guide provides a structured approach to creating and presenting personal stories for job interviews using the STAR method. The goal is to help you craft compelling narratives that highlight your skills, experiences, and accomplishments in a way that resonates with interviewers.
-
 ## General Guidance
 
 - **Avoid Being Overly Technical**: Focus on the impact of your actions and decisions rather than getting lost in technical jargon. 

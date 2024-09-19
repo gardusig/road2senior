@@ -1,5 +1,3 @@
-# Questions to Ask at the End of an Interview:
-
 ## Team Dynamics and Challenges:
 
 - What are the biggest challenges the team is currently facing?
