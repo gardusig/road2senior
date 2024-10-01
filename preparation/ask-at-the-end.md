@@ -1,3 +1,18 @@
+## Summary
+
+- [Summary](#summary)
+- [Team Dynamics and Challenges:](#team-dynamics-and-challenges)
+- [Growth and Development Opportunities:](#growth-and-development-opportunities)
+- [Company Culture and Values:](#company-culture-and-values)
+- [Position Details and Expectations:](#position-details-and-expectations)
+- [On-Call Responsibilities (if applicable):](#on-call-responsibilities-if-applicable)
+- [Team Collaboration and Communication:](#team-collaboration-and-communication)
+- [Feedback and Performance Management:](#feedback-and-performance-management)
+- [Technical Environment and Roadmap:](#technical-environment-and-roadmap)
+- [Leadership and Team Structure:](#leadership-and-team-structure)
+- [Final Considerations:](#final-considerations)
+- [Additional Questions to Consider:](#additional-questions-to-consider)
+
 ## Team Dynamics and Challenges:
 
 - What are the biggest challenges the team is currently facing?
