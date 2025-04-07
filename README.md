@@ -71,4 +71,4 @@ At the end of each interview, you'll usually have ~5 minutes to ask the intervie
 
 Use this as a chance to show genuine interest and figure out if the company is a good fit for you. Asking insightful or unexpected questions can leave a strong impression.
 
-[Check out more details here](./preparation/ask-at-the-end.md).
+[Check out some questions here](./preparation/ask-at-the-end.md).
