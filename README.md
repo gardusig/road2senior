@@ -2,6 +2,11 @@
 
 - [Summary](#summary)
 - [Coding Interview](#coding-interview)
+  - [Clarify Early](#clarify-early)
+  - [Analyze Inputs \& Outputs](#analyze-inputs--outputs)
+  - [Evaluate Approaches](#evaluate-approaches)
+  - [Write Clean Code](#write-clean-code)
+  - [Test Thoroughly](#test-thoroughly)
 - [Behavioral Interview](#behavioral-interview)
   - [STAR Method](#star-method)
     - [Situation](#situation)
@@ -14,58 +19,94 @@
 
 ## Coding Interview
 
-This round typically lasts up to an hour and involves solving one or more problems using algorithms and data structures.
+🎯 Focus on *curated* lists — **don’t** waste time grinding random problems.
 
-To perform well, focus on clearly communicating your thought process. Your code should be clean, readable, and reflect a thoughtful approach — the interviewer should be able to follow not just what you wrote, but why. 
+**To succeed**: solve the problem *and* clearly communicate your thinking.
 
-[Check out more details here](./preparation/coding.md).
+### Clarify Early
+
+- 🤔 Ask questions to fully understand the problem.
+- 🔍 Use examples to clarify and test understanding.
+- 🙋 Be honest if you’ve seen the problem before.
+- ⚠️ Think about edge cases *from the beginning*.
+
+### Analyze Inputs & Outputs
+
+- 📏 Understand size, range, and limits of inputs.
+- ⏱️ Estimate **time** and **space complexity**.
+- 🧩 Look for clues in data structure sizes and patterns.
+
+### Evaluate Approaches
+
+- 🪜 Start with a brute-force baseline.
+- 🛠️ Look for repeated work.
+- ⚖️ Weigh trade-offs: *efficiency* vs *simplicity*.
+
+### Write Clean Code
+
+- 🏷️ Use **descriptive** variable and function names.
+- 🧱 Keep logic *modular* and focused.
+- 🧹 Maintain consistent indentation and whitespace.
+
+### Test Thoroughly
+
+- 🧪 Try diverse inputs: small, large, and corner cases.
+- 🐛 Manually walk through code for tricky scenarios.
+- 🧠 Explain your logic at each step like you're teaching someone.
 
 ## Behavioral Interview
 
-The interviewer is trying to understand how you make decisions in different situations. Don’t shy away from sharing mistakes — what matters is what you learned from them. The more unique your experiences, the more compelling your answers.
+**The goal is to reveal how you *think*, *decide*, and *grow*.**
+
+Don’t shy away from failure stories — what matters is how you *responded* and what you *learned* Think of each story as a “case study” in how you operate under pressure, ambiguity, or conflict.
+
+[📖 Check out some personal stories here](./preparation/personal-stories.md)
 
 ### STAR Method
 
-Structure your stories using the STAR (Situation, Task, Action, Result) framework to keep them clear, concise, and compelling.
+Structure your stories using the ⭐ **STAR** method to keep them clear and compelling.
 
 #### Situation
-- **Set the Stage**: Briefly describe the context — where you were, who was involved, and what made the situation important or challenging.
-- **Keep It Understandable**: Assume the interviewer has no context — avoid internal acronyms or obscure domain terms.
+- **Set the stage**: Briefly describe the context — where you were, who was involved, and why it mattered.
+- *Assume the interviewer has no context* — skip acronyms and jargon.
 
 #### Task
-- **Define the Challenge**: Explain your specific responsibility or goal in that scenario.
-- **Clarify Expectations**: Make your role and objectives clear so your contributions are easy to understand.
+- **Define the challenge**: What was your specific goal or responsibility?
+- Clarify what was expected of *you* specifically.
 
 #### Action
-- **Describe What You Did**: Walk through your thought process and the steps you took. Emphasize relevant skills, strategies, and decisions.
-- **Highlight Ownership and Initiative**: Show how you led, solved problems, or went beyond the basic requirements.
+- **Explain what you did**: Walk through your thought process and steps taken.
+- Emphasize ownership, problem-solving, and leadership moments.
 
 #### Result
-- **Show the Outcome**: Quantify the results if possible — e.g., time saved, revenue generated, performance improved.
-- **Reflect on Growth**: Whether the outcome was a success or a learning moment, explain what you took away and how it shaped your future actions.
+- **Show the outcome**: Use metrics, impact, or feedback to back it up.
+- *Reflect*: What did you learn? What changed as a result?
 
 ### Story Creation Guidance
 
 1. **Craft Engaging Titles**
-   - Include data, dates, or metrics to strengthen your credibility. Keep your stories focused and impactful. Think of your story title like a headline that sparks curiosity (e.g., *“Scaling a System for 10x Black Friday Traffic”*). 
+   - Use data, outcomes, or context:  
+     _“Scaling a System for 10x Black Friday Traffic”_ > _“Worked on scalability”_
 
 2. **Keep a Consistent Narrative**
-   - Your stories should reinforce each other. They should build a coherent picture of your values, growth, and professional journey — like puzzle pieces forming a bigger image.
+   - Stories should form a *cohesive picture* of your experience, values, and growth.
 
 3. **End on a Constructive Note**
-   - Even if the outcome wasn’t perfect, conclude with a positive takeaway: a win, a lesson, or how it made you better. Think of it like the moral at the end of a classic cartoon (e.g., *He-Man*).
-
-[Check out some personal stories here](./preparation/personal-stories.md).
+   - Even failures should close with a lesson, change, or improvement.
 
 ## System Design Interview
 
-This round involves sketching out the design of a computer system. It doesn’t need to be perfect — you’re not expected to replace an entire engineering team. The goal is to demonstrate how you think through trade-offs and make decisions.
+**You're not expected to be perfect — you're expected to think aloud, make trade-offs, and justify your choices.**
 
-Check out some design examples here:
+> Prioritize *clarity*, *scalability*, and *reasoned decisions* over technical depth alone.
+
+📁 Check out some design examples:
 - [Twitter](./system-design/twitter.md)
 
 ## Ask at the End
 
-You'll usually have ~5 minutes to ask the interviewer any question. Use this as a chance to show genuine interest and figure out if the company is a good fit for you.
+Use the last ~5 minutes to ask meaningful questions that show curiosity and help you evaluate the team/company.
 
-[Check out some question examples here](./preparation/ask-at-the-end.md).
+> Great questions show you're thoughtful, invested, and interviewing *them* too.
+
+[💬 Check out some question ideas here](./preparation/ask-at-the-end.md)
