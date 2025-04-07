@@ -1,81 +1,58 @@
 ## Summary
 
 - [Summary](#summary)
-- [Team Dynamics and Challenges:](#team-dynamics-and-challenges)
-- [Growth and Development Opportunities:](#growth-and-development-opportunities)
-- [Company Culture and Values:](#company-culture-and-values)
-- [Position Details and Expectations:](#position-details-and-expectations)
-- [On-Call Responsibilities (if applicable):](#on-call-responsibilities-if-applicable)
-- [Team Collaboration and Communication:](#team-collaboration-and-communication)
-- [Feedback and Performance Management:](#feedback-and-performance-management)
-- [Technical Environment and Roadmap:](#technical-environment-and-roadmap)
-- [Leadership and Team Structure:](#leadership-and-team-structure)
-- [Final Considerations:](#final-considerations)
-- [Additional Questions to Consider:](#additional-questions-to-consider)
+- [For Engineering Managers](#for-engineering-managers)
+  - [Team and Role Context](#team-and-role-context)
+  - [Expectations and Performance](#expectations-and-performance)
+  - [Technical Environment](#technical-environment)
+  - [Team Dynamics and Growth](#team-dynamics-and-growth)
+  - [On-Call and System Reliability](#on-call-and-system-reliability)
+- [For Engineers or Individual Contributors](#for-engineers-or-individual-contributors)
+  - [Day-to-Day Work and Collaboration](#day-to-day-work-and-collaboration)
+- [Final Questions](#final-questions)
 
-## Team Dynamics and Challenges:
+## For Engineering Managers
 
-- What are the biggest challenges the team is currently facing?
-- What are the most critical issues or priorities for the team over the next six months?
-- How is success measured within the team?
+### Team and Role Context
 
-## Growth and Development Opportunities:
+- What are the team’s top priorities for the next 3–6 months?
+- What are some current challenges the team is tackling?
+- What does success look like for this role in the first 30, 60, and 90 days?
+- How does this team interact with other teams or departments?
 
-- What opportunities for professional growth and development are available in this role?
-- Are there mentorship programs, training sessions, or opportunities for continuous learning?
-- Can you provide examples of how team members have advanced or grown in their careers here?
+### Expectations and Performance
 
-## Company Culture and Values:
+- What qualities or skills make someone successful in this team?
+- How is performance measured, and how often is it reviewed?
 
-- How would you describe the company culture and the team environment?
-- What values are most important to the company, and how are they reflected in day-to-day work?
-- How does the company support work-life balance and employee well-being?
+### Technical Environment
 
-## Position Details and Expectations:
+- How would you describe the system architecture (e.g., monolith, microservices, event-driven)?
+- What scale does the system operate at — traffic volume, latency requirements, data size?
 
-- Why is this position currently open? Is it a new role, or is it a replacement?
-- What qualities or skills are you looking for in the ideal candidate for this role?
-- What does a typical day or week look like for someone in this role?
-- Can you describe what distinguishes a top performer in this position?
+### Team Dynamics and Growth
 
-## On-Call Responsibilities (if applicable):
+- How is the team structured, and where does this role fit in?
+- How would you describe the team’s collaboration style?
+- Can you share an example of someone who grew within the team or org?
 
-- Is there an on-call rotation, and if so, what is the rotation period? (e.g., every two weeks)
-- How much time is typically spent on on-call duties versus standard tasks?
-- What steps are being taken to minimize the number of on-call incidents or tickets?
+### On-Call and System Reliability
 
-## Team Collaboration and Communication:
+- Is there an on-call rotation? If so, how often and how is it structured?
+- What’s the usual volume and severity of on-call incidents?
+- What types of alerts or issues come up most frequently?
+- Are there current efforts to reduce manual toil or improve observability?
 
-- How does the team collaborate on projects? Are there regular meetings or check-ins?
-- What tools and technologies does the team use to communicate and manage tasks?
-- How are remote or hybrid work arrangements handled? Are there specific expectations for in-office versus remote work?
+## For Engineers or Individual Contributors
 
-## Feedback and Performance Management:
+### Day-to-Day Work and Collaboration
 
-- How frequently is feedback provided, and in what format?
-- What is the process for setting performance goals and evaluating progress?
-- Are there opportunities for employees to provide feedback to management?
+- What does a typical day or week look like for you?
+- What kind of projects or problems is the team currently working on?
+- How is work usually planned and prioritized?
+- How do you collaborate as a team — standups, async updates?
 
-## Technical Environment and Roadmap:
+## Final Questions
 
-- What technologies, frameworks, or tools does the team primarily use?
-- Is there a technical roadmap, and what are some of the key upcoming projects or initiatives?
-- How are decisions about adopting new technologies or tools made?
-
-## Leadership and Team Structure:
-
-- Can you describe the team structure and how this role fits within it?
-- Who will I be reporting to, and how would you describe their leadership style?
-- How does leadership support the team in achieving its goals?
-
-## Final Considerations:
-
-- What do you enjoy most about working here, and what keeps you motivated?
-- Are there any concerns or reservations about my background or skills that I could address for you?
-- What are the next steps in the interview process, and when should I expect to hear back?
-
-## Additional Questions to Consider:
-
-- What is the company's approach to diversity, equity, and inclusion?
-- How does the company handle conflict resolution or difficult situations among team members?
-- Are there any upcoming changes or challenges within the company or industry that the team should be aware of?
+- What do you personally enjoy most about working here?
+- What’s been your favorite project or initiative on this team?
