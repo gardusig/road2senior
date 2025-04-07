@@ -24,9 +24,9 @@ To perform well, focus on clearly communicating your thought process. Your code 
 
 The interviewer is trying to understand how you make decisions in different situations. Don’t shy away from sharing mistakes — what matters is what you learned from them. The more unique your experiences, the more compelling your answers.
 
-**Use the STAR Method**: Structure your stories using the STAR (Situation, Task, Action, Result) framework to keep them clear, concise, and compelling.
-
 ### STAR Method
+
+Structure your stories using the STAR (Situation, Task, Action, Result) framework to keep them clear, concise, and compelling.
 
 #### Situation
 - **Set the Stage**: Briefly describe the context — where you were, who was involved, and what made the situation important or challenging.
@@ -59,16 +59,13 @@ The interviewer is trying to understand how you make decisions in different situ
 
 ## System Design Interview
 
-This round also lasts about an hour and involves sketching out the design of a computer system.
+This round involves sketching out the design of a computer system. It doesn’t need to be perfect — you’re not expected to replace an entire engineering team. The goal is to demonstrate how you think through trade-offs and make decisions.
 
-It doesn’t need to be perfect — you’re not expected to replace an entire engineering team. The goal is to demonstrate how you think through trade-offs and system-level decisions.
-
-[Check out more details here](./preparation/system-design.md).
+Check out some design examples here:
+- [Twitter](./system-design/twitter.md)
 
 ## Ask at the End
 
-At the end of each interview, you'll usually have ~5 minutes to ask the interviewer questions.
+You'll usually have ~5 minutes to ask the interviewer any question. Use this as a chance to show genuine interest and figure out if the company is a good fit for you.
 
-Use this as a chance to show genuine interest and figure out if the company is a good fit for you. Asking insightful or unexpected questions can leave a strong impression.
-
-[Check out some questions here](./preparation/ask-at-the-end.md).
+[Check out some question examples here](./preparation/ask-at-the-end.md).

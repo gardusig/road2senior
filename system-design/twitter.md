@@ -1,10 +1,4 @@
-## Simple Service Design
-
-![simple-service](../system-design/simple-service.png)
-
-## Complex Service Design
-
-![complex-service](../system-design/complex-service.png)
+# Twitter system design
 
 ## 1. Understand the Problem
 
