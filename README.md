@@ -15,6 +15,7 @@
     - [Result](#result)
   - [Story Creation Guidance](#story-creation-guidance)
 - [System Design Interview](#system-design-interview)
+  - [System design examples:](#system-design-examples)
 - [Ask at the End](#ask-at-the-end)
 
 ## Coding Interview
@@ -58,7 +59,7 @@
 
 **The goal is to reveal how you *think*, *decide*, and *grow*.**
 
-Don’t shy away from failure stories — what matters is how you *responded* and what you *learned* Think of each story as a “case study” in how you operate under pressure, ambiguity, or conflict.
+Don’t shy away from failure stories — what matters is how you *responded* and what you *learned*.
 
 [📖 Check out some personal stories here](./preparation/personal-stories.md)
 
@@ -67,26 +68,25 @@ Don’t shy away from failure stories — what matters is how you *responded* an
 Structure your stories using the ⭐ **STAR** method to keep them clear and compelling.
 
 #### Situation
-- **Set the stage**: Briefly describe the context — where you were, who was involved, and why it mattered.
+- Briefly describe the context — where you were, who was involved, and why it mattered.
 - *Assume the interviewer has no context* — skip acronyms and jargon.
 
 #### Task
-- **Define the challenge**: What was your specific goal or responsibility?
+- What was your specific goal or responsibility?
 - Clarify what was expected of *you* specifically.
 
 #### Action
-- **Explain what you did**: Walk through your thought process and steps taken.
+- Walk through your thought process and steps taken.
 - Emphasize ownership, problem-solving, and leadership moments.
 
 #### Result
-- **Show the outcome**: Use metrics, impact, or feedback to back it up.
-- *Reflect*: What did you learn? What changed as a result?
+- Show the outcome - use metrics, impact, or feedback to back it up.
+- What did you learn? What changed as a result?
 
 ### Story Creation Guidance
 
 1. **Craft Engaging Titles**
-   - Use data, outcomes, or context:  
-     _“Scaling a System for 10x Black Friday Traffic”_ > _“Worked on scalability”_
+   - _“Scaling a System for 10x Black Friday Traffic”_ > _“Worked on scalability”_
 
 2. **Keep a Consistent Narrative**
    - Stories should form a *cohesive picture* of your experience, values, and growth.
@@ -96,17 +96,14 @@ Structure your stories using the ⭐ **STAR** method to keep them clear and comp
 
 ## System Design Interview
 
-**You're not expected to be perfect — you're expected to think aloud, make trade-offs, and justify your choices.**
+- Think aloud, make trade-offs, and justify your choices.
+- Prioritize *clarity*, *scalability*, and *reasoned decisions* over personal preference.
 
-> Prioritize *clarity*, *scalability*, and *reasoned decisions* over technical depth alone.
-
-📁 Check out some design examples:
+### System design examples:
 - [Twitter](./system-design/twitter.md)
 
 ## Ask at the End
 
 Use the last ~5 minutes to ask meaningful questions that show curiosity and help you evaluate the team/company.
-
-> Great questions show you're thoughtful, invested, and interviewing *them* too.
 
 [💬 Check out some question ideas here](./preparation/ask-at-the-end.md)
